@@ -1,0 +1,54 @@
+2015-04-28 18:28:31,367'INFO:Set logger---
+2015-04-28 18:28:31,389'INFO:building_blocke : consolidated
+2015-04-28 18:28:31,423'INFO:building_blocks:getblock:got  0 as block_num
+2015-04-28 18:28:31,424'INFO:building_blocks:getblock:got  1 as block_num
+2015-04-28 18:28:31,424'INFO:building_blocks:getblock:got  2 as block_num
+2015-04-28 18:28:31,425'INFO:building_blocks:getblock:got  3 as block_num
+2015-04-28 18:28:31,425'INFO:building_blocks:getblock:got  4 as block_num
+2015-04-28 18:28:31,425'INFO:building_blocks:getblock:got  5 as block_num
+2015-04-28 18:28:31,425'INFO:building_blocks:getblock:got  6 as block_num
+2015-04-28 18:28:31,425'INFO:building_blocks:getblock:got  7 as block_num
+2015-04-28 18:28:31,425'INFO:building_blocks:getblock:got  8 as block_num
+2015-04-28 18:28:31,426'INFO:building_blocks:getblock:got  9 as block_num
+2015-04-28 18:28:31,426'INFO:graphit:Entered , received params[[26, 75]]
+2015-04-28 18:28:31,426'INFO:building_blocks:getblock:got  10 as block_num
+2015-04-28 18:28:31,426'INFO:building_blocks:getblock:got  11 as block_num
+2015-04-28 18:28:31,426'INFO:building_blocks:getblock:got  12 as block_num
+2015-04-28 18:28:31,427'INFO:building_blocks:getblock:got  13 as block_num
+2015-04-28 18:28:31,427'INFO:building_blocks:getblock:got  14 as block_num
+2015-04-28 18:28:31,427'INFO:building_blocks:getblock:got  15 as block_num
+2015-04-28 18:28:31,427'INFO:building_blocks:getblock:got  16 as block_num
+2015-04-28 18:28:31,427'INFO:building_blocks:getblock:got  17 as block_num
+2015-04-28 18:28:31,427'INFO:building_blocks:getblock:got  18 as block_num
+2015-04-28 18:28:31,427'INFO:building_blocks:getblock:got  19 as block_num
+2015-04-28 18:28:31,427'INFO:building_blocks:getblock:got  20 as block_num
+2015-04-28 18:28:31,427'INFO:building_blocks:getblock:got  21 as block_num
+2015-04-28 18:28:31,428'INFO:graphit:Entered , received params[[6, 55]]
+2015-04-28 18:28:31,428'INFO:building_blocks:getblock:got  22 as block_num
+2015-04-28 18:28:31,428'INFO:graphit:Entered , received params[[8, 57]]
+2015-04-28 18:28:31,428'INFO:building_blocks:getblock:got  23 as block_num
+2015-04-28 18:28:31,428'INFO:graphit:Entered , received params[[8, 57]]
+2015-04-28 18:28:31,428'INFO:building_blocks:getblock:got  24 as block_num
+2015-04-28 18:28:31,428'INFO:graphit:Entered , received params[[12, 61]]
+2015-04-28 18:28:31,429'INFO:building_blocks:getblock:got  25 as block_num
+2015-04-28 18:28:31,429'INFO:graphit:Entered , received params[[6, 55]]
+2015-04-28 18:28:31,429'INFO:building_blocks:getblock:got  26 as block_num
+2015-04-28 18:28:31,437'INFO:graphit:Entered , received params[[12, 61]]
+2015-04-28 18:28:31,437'INFO:building_blocks:getblock:got  27 as block_num
+2015-04-28 18:28:31,438'INFO:building_blocks:getblock:got  28 as block_num
+2015-04-28 18:28:31,438'INFO:building_blocks:getblock:got  29 as block_num
+2015-04-28 18:28:31,438'INFO:building_blocks:getblock:got  30 as block_num
+2015-04-28 18:28:31,438'INFO:building_blocks:getblock:got  31 as block_num
+2015-04-28 18:28:31,438'INFO:building_blocks:getblock:got  32 as block_num
+2015-04-28 18:28:31,438'INFO:building_blocks:getblock:got  33 as block_num
+2015-04-28 18:28:31,438'INFO:building_blocks:getblock:got  34 as block_num
+2015-04-28 18:28:31,438'INFO:building_blocks:getblock:got  35 as block_num
+2015-04-28 18:28:31,439'INFO:graphit:Entered , received params[[1, 50]]
+2015-04-28 18:28:31,439'INFO:building_blocks:getblock:got  36 as block_num
+2015-04-28 18:28:31,439'INFO:graphit:Entered , received params[[0, 49]]
+2015-04-28 18:28:31,439'INFO:building_blocks:getblock:got  37 as block_num
+2015-04-28 18:28:31,439'INFO:graphit:Entered , received params[[0, 49]]
+2015-04-28 18:28:31,439'INFO:building_blocks:getblock:got  38 as block_num
+2015-04-28 18:28:31,459'INFO:graphit:Entered , received params[[0, 49]]
+2015-04-28 18:28:31,459'INFO:building_blocks:getblock:got  39 as block_num
+2015-04-28 18:28:31,459'INFO:graphit:Entered , received params[[0, 49]]

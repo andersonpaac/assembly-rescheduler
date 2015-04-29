@@ -1,0 +1,13 @@
+2015-04-28 18:23:14,007'INFO:Set logger---
+2015-04-28 18:23:14,030'INFO:building_blocke : consolidated
+2015-04-28 18:23:14,036'INFO:building_blocks:getblock:got  0 as block_num
+2015-04-28 18:23:14,037'INFO:building_blocks:getblock:got  1 as block_num
+2015-04-28 18:23:14,037'INFO:building_blocks:getblock:got  2 as block_num
+2015-04-28 18:23:14,038'INFO:building_blocks:getblock:got  3 as block_num
+2015-04-28 18:23:14,038'INFO:building_blocks:getblock:got  4 as block_num
+2015-04-28 18:23:14,039'INFO:building_blocks:getblock:got  5 as block_num
+2015-04-28 18:23:14,039'INFO:building_blocks:getblock:got  6 as block_num
+2015-04-28 18:23:14,039'INFO:building_blocks:getblock:got  7 as block_num
+2015-04-28 18:23:14,039'INFO:building_blocks:getblock:got  8 as block_num
+2015-04-28 18:23:14,039'INFO:building_blocks:getblock:got  9 as block_num
+2015-04-28 18:23:14,039'INFO:graphit:Entered , received params[[26, 31]]
