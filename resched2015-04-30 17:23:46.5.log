@@ -1,0 +1,77 @@
+2015-04-30 17:23:46,545'INFO:Set logger---
+2015-04-30 17:23:46,549'INFO:binding_blocks:clean: Complete
+2015-04-30 17:23:46,549'INFO:binding_blocks:consolidate:Entered
+2015-04-30 17:23:46,551'INFO:building_blocks : consolidated
+2015-04-30 17:23:46,552'CRITICAL:binding_blocks:writetofile:WROTE FILE to hererhere.asm
+2015-04-30 17:23:46,552'INFO:build_dep:alp=0
+2015-04-30 17:23:46,552'INFO:building_blocks:getblock:got  0 as block_num
+2015-04-30 17:23:46,552'INFO:binding_blocks:getblock: Returned data request for 0
+2015-04-30 17:23:46,552'INFO:analyzing block 0
+2015-04-30 17:23:46,552'INFO:build_dep:alp=1
+2015-04-30 17:23:46,552'INFO:building_blocks:getblock:got  1 as block_num
+2015-04-30 17:23:46,552'INFO:binding_blocks:getblock: Returned data request for 1
+2015-04-30 17:23:46,552'INFO:build_dep:Returned:    JMP R1
+
+2015-04-30 17:23:46,552'INFO:analyzing block 1
+2015-04-30 17:23:46,552'INFO:build_dep:alp=2
+2015-04-30 17:23:46,552'INFO:building_blocks:getblock:got  2 as block_num
+2015-04-30 17:23:46,552'INFO:binding_blocks:getblock: Returned data request for 2
+2015-04-30 17:23:46,552'INFO:build_dep:Returned:    ADD R1, R1, 9
+
+2015-04-30 17:23:46,552'INFO:build_dep:Returned:    BRn T2
+
+2015-04-30 17:23:46,553'INFO:build_dep:Returned:    ADD R4, R4, 1
+
+2015-04-30 17:23:46,553'INFO:build_dep:Returned:    LDR R0, R0, beancounter
+
+2015-04-30 17:23:46,553'INFO:analyzing block 2
+2015-04-30 17:23:46,553'INFO:	No optimizations possible in block 2
+2015-04-30 17:23:46,553'INFO:build_dep:alp=3
+2015-04-30 17:23:46,553'INFO:building_blocks:getblock:got  3 as block_num
+2015-04-30 17:23:46,553'INFO:binding_blocks:getblock: Returned data request for 3
+2015-04-30 17:23:46,553'INFO:build_dep:Returned:    ADD R5, R0, R5
+
+2015-04-30 17:23:46,553'INFO:analyzing block 3
+2015-04-30 17:23:46,553'INFO:build_dep:alp=4
+2015-04-30 17:23:46,553'INFO:building_blocks:getblock:got  4 as block_num
+2015-04-30 17:23:46,553'INFO:binding_blocks:getblock: Returned data request for 4
+2015-04-30 17:23:46,553'INFO:analyzing block 4
+2015-04-30 17:23:46,553'INFO:build_dep:alp=5
+2015-04-30 17:23:46,553'INFO:building_blocks:getblock:got  5 as block_num
+2015-04-30 17:23:46,553'INFO:binding_blocks:getblock: Returned data request for 5
+2015-04-30 17:23:46,553'INFO:build_dep:Returned:    AND R7, R7, 0
+
+2015-04-30 17:23:46,553'INFO:build_dep:Returned:    AND R6, R6, 0
+
+2015-04-30 17:23:46,553'INFO:build_dep:Returned:    AND R5, R5, 0
+
+2015-04-30 17:23:46,554'INFO:build_dep:Returned:    AND R4, R4, 0
+
+2015-04-30 17:23:46,554'INFO:build_dep:Returned:    AND R3, R3, 0
+
+2015-04-30 17:23:46,554'INFO:build_dep:Returned:    AND R2, R2, 0
+
+2015-04-30 17:23:46,554'INFO:build_dep:Returned:    AND R1, R1, 0
+
+2015-04-30 17:23:46,554'INFO:build_dep:Returned:    AND R0, R0, 0
+
+2015-04-30 17:23:46,554'INFO:analyzing block 5
+2015-04-30 17:23:46,554'INFO:build_dep:alp=6
+2015-04-30 17:23:46,554'INFO:building_blocks:getblock:got  6 as block_num
+2015-04-30 17:23:46,554'INFO:binding_blocks:getblock: Returned data request for 6
+2015-04-30 17:23:46,554'INFO:build_dep:Returned:    BRnzp HALT
+
+2015-04-30 17:23:46,554'INFO:analyzing block 6
+2015-04-30 17:23:46,554'INFO:build_dep:alp=7
+2015-04-30 17:23:46,554'INFO:building_blocks:getblock:got  7 as block_num
+2015-04-30 17:23:46,554'INFO:binding_blocks:getblock: Returned data request for 7
+2015-04-30 17:23:46,554'INFO:analyzing block 7
+2015-04-30 17:23:46,554'INFO:build_dep:alp=8
+2015-04-30 17:23:46,554'INFO:building_blocks:getblock:got  8 as block_num
+2015-04-30 17:23:46,554'INFO:binding_blocks:getblock: Returned data request for 8
+2015-04-30 17:23:46,554'INFO:analyzing block 8
+2015-04-30 17:23:46,554'INFO:build_dep:alp=9
+2015-04-30 17:23:46,554'INFO:building_blocks:getblock:got  9 as block_num
+2015-04-30 17:23:46,555'INFO:binding_blocks:getblock: Returned data request for 9
+2015-04-30 17:23:46,555'INFO:analyzing block 9
+2015-04-30 17:23:46,555'DEBUG:Total Possible Hazards0

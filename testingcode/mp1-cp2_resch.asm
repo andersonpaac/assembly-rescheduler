@@ -1,6 +1,6 @@
-ORIGIN 0
-SEGMENT
-CODE:
+    ORIGIN 0
+    SEGMENT
+    CODE:
     ADD R2 , R2, 4 
     LDb R5 , R2 , 9 
     NOT R4 , R2
@@ -24,6 +24,6 @@ CODE:
     ADD R3, R4, 4
     ADD R3, R4, 4
     ADD R3, R4, 4
-GOODEND:
+    GOODEND:
     ADD R1 , R1 , 8
     BRnzp GOODEND

@@ -1,0 +1,9 @@
+2015-04-30 17:38:33,288'INFO:Set logger---
+2015-04-30 17:38:33,292'INFO:binding_blocks:clean: Complete
+2015-04-30 17:38:33,293'INFO:binding_blocks:consolidate:Entered
+2015-04-30 17:38:33,296'INFO:building_blocks : consolidated
+2015-04-30 17:38:33,297'CRITICAL:binding_blocks:writetofile:WROTE FILE to hererhere.asm
+2015-04-30 17:38:33,297'INFO:build_dep:alp=0
+2015-04-30 17:38:33,297'INFO:building_blocks:getblock:got  0 as block_num
+2015-04-30 17:38:33,297'INFO:binding_blocks:getblock: Returned data request for 0
+2015-04-30 17:38:33,297'CRITICAL:instruction:init:FAILED at ['START:']

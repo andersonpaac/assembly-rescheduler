@@ -14,3 +14,10 @@ Current :
    
 @todo:
     Unhandled edges:    multiple in one
+   
+@IN_PROG:
+   cp1.asm
+   
+@possible_problems:
+    ending block recognition
+    middle data block with  :FIXED

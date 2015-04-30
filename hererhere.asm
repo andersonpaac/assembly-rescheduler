@@ -39,68 +39,53 @@ START:
     NOP
     NOP
     NOP
-
     ADD R3, R3, R4
     NOP
     NOP
     NOP
-
     ADD R3, R3, R3
     NOP
     NOP
     NOP
-
     STR R3, R0, calcx
-
     AND R4, R5, R3
     NOP
     NOP
     NOP
-
     STR R4, R0, joiner
-
     NOT R5, R5
     NOP
     NOP
     NOP
-
     STR R5, R0, duh
-
     LDR R6, R0, FOED
     NOP
     NOP
     NOP
-
     LDR R7, R0, FOED
     NOP
     NOP
     NOP
-
     LSHF R6, R6, 8
     NOP
     NOP
     NOP
-
     RSHFL R7, R7, 3
     NOP
     NOP
     NOP
-
     RSHFA R6, R6, 6
     NOP
     NOP
     NOP
-
     STR R6, R0, fivespd
     NOP
     NOP
     NOP
-
     STR R7, R0, fivespd
     NOP
     NOP
     NOP
-
     LDR R1, R0, ZERO
     LDR R2, R0, ZERO
     LDR R3, R0, D22D
@@ -108,40 +93,32 @@ START:
     LDR R5, R0, FOED
     LDR R6, R0, DEEB
     LDR R7, R0, LEAF
-
 SEGMENT CodeSegment2:
-
     LDR R1, R0, BOMB
     NOP
     NOP
     NOP
-
     LEA R2, HOWHIGH
     NOP
     NOP
     NOP
     JMP R2
-
     NOP
     NOP
     NOP
-
     LDR R1, R0, GOOF
     NOP
     NOP
     NOP
-
 HOWHIGH:
     STR R1, R0, dunk
     NOP
     NOP
     NOP
-
     LDR R2, R0, DEEB
     NOP
     NOP
     NOP
-
     STR R2, R0, SPOT1
     LDR R3, R0, FOED
     LDR R4, R0, LEAF
@@ -158,7 +135,6 @@ HOWHIGH:
     NOP
     NOP
     NOP
-
     LDR R5, R0, SPOT1
     LDR R4, R0, SPOT2
     LDR R3, R0, SPOT3
@@ -182,15 +158,12 @@ HOWHIGH:
     NOP
     NOP
     NOP
-
     ADD R3, R0,1
     NOP
     NOP
     NOP
-
     STB R6, R3, ZOOP
     LDR R4, R0, ZOOP
-
     STB R7, R0, BEAD
     LDR R3, R0, BEAD
     NOP
@@ -199,28 +172,21 @@ HOWHIGH:
     STR R3, R0, chew
     STR R4, R0, chew
     ADD R3, R3, R4
-
     LDR R4, R0, ZERO
-
     JSR MUDDLE
-
     STR R4, R0, MUDPIE
-
     LEA R5, MUDDLER
     NOP
     NOP
     NOP
     JSRR R5
-
     STR R5, R0, MUDPIE
-
     ADD R6, R0, 1
     NOP
     NOP
     NOP
     LDB R6, R6, COOKIE
     NOP
-
     LDB R7, R0, COOKIE
     NOP
     STR R6, R0, crumb
@@ -230,33 +196,26 @@ HOWHIGH:
     NOP
     NOP
     ADD R6, R6, R7
-
     TRAP FUN
-
     STR R6, R0, FUN
-
     LDR R1,R0, ZERO
     LDR R2,R0, ZERO
     LDR R3,R0, ZERO
     LDR R4,R0, GOOD
     LDR R5,R0, GOOD
     LDR R6,R0, GOOD
-
     LDI R1, R0, TEST
     NOP
     NOP
     NOP
-
     STI R4, R0, DONE
     NOP
     NOP
     NOP
     LDR R2, R0, RESULT
-
     STR R1, R0, GOOF
     STR R2, R0, GOOF
     NOP
-
     AND R3, R3, 0
     BRp DOH
     BRn DOH
@@ -264,22 +223,17 @@ HOWHIGH:
     BRz WOOHOO
     BRnz DOH
     BRnzp DOH
-
 DOH:
     ADD R3, R3, 4
-
 WOOHOO:
     ADD R3, R3, 6
     AND R4,R4,0
     BRz SOFAR
     ADD R3, R3, 1
-
 SOFAR:
     ADD R3, R3, 6
     AND R4,R4,0
-
     BRnp DOH2
-
     NOP
     NOP
     NOP
@@ -300,18 +254,13 @@ GetOverHere:
     NOP
     NOP
     STR R3, R0, GOOF
-
-
     STR R1, R0, SPOT1
     STR R2, R0, SPOT2
     STR R3, R0, SPOT3
-
     LEA R1, bouncer
 END_m:
     JMP R1
-
 SEGMENT DataSegment:
-
 ZERO:   DATA2 4x0000
 ZOOP :  DATA2 4x700F
 BEAD :  DATA2 4xBEAD
@@ -329,7 +278,6 @@ GOOD:   DATA2 4x600D
 COOKIE: DATA2 4xD0CA
 FOOB:   DATA2 4xF00B
 aacus:  DATA2 4xFFFF
-
 joiner: DATA2 4x1010
 calcx:  DATA2 4x1234
 fivespd:DATA2 4x8921
@@ -337,29 +285,23 @@ duh:    DATA2 4x9999
 chew:   DATA2 4xcccc
 crumb:  DATA2 4x6969
 GAME:   DATA2 4xba11
-
 SPOT1:  DATA2 4x8888
 SPOT2:  DATA2 4xABCD
 SPOT3:  DATA2 4x0110
 SPOT4:  DATA2 4xABBA
-
 TEST:   DATA2 GAME
 DONE:   DATA2 RESULT
 MUDPIE: DATA2 4x0000
 BLUNDER:    DATA2 bouncer
-
 MUDDLE:
     NOP
     NOP
     NOP
     ADD R4, R4,14
     RET
-
 MUDDLER:
-
     LDR R5, R0, LIFE
     RET
-
 HOPE:
     LDR R1,R0, GOOD
     LDR R2,R0, GOOD
@@ -368,108 +310,74 @@ HOPE:
     LDR R5,R0, GOOD
     LDR R6,R0, GOOD
     RET
-
-
-
-
-
-
-
 SEGMENT bouncer:
-
-
-
-
-
 Beg1:
-    LEA R0, ThisDataSeg
-    AND R1, R1, 0
-    AND R2, R2, 0
-    AND R3, R3, 0
-    ADD R3, R3, 13
-    ADD R2, R2, 4xB
-
-
-
-
-
-    ADD R1, R2, R3
-    ADD R4, R1, 3
-
-    LSHF R2, R2, 3
-    NOT R5, R3
-    AND R3, R2, 15
-
-    NOP
-    NOP
-    ADD R5, R3, R3
-
-    ADD R1, R4, 5
-    ADD R1, R4, 10
-    ADD R1, R4, 14
-    AND R2, R1, -1
-
-    STR R2, R0, BlackHole
-    STR R5, R0, BlackHole
-
-    ADD R0, R0, 2
-    STR R2, R0, BlackHole
-
-    ADD R0, R0, -2
-    LDR R3, R0, Photostat
-    LDR R3, R0, LdThis
-    STR R3, R0, Photostat
-
-    LDR R3, R0, nosedive
-    ADD R4, R3, 11
-
-    LDR R3, R0, tailspin
-    rshfl R4, R4, 1
-    ADD R5, R3, 7
-
-    LDI R1, R0, compass
-    ADD R5, R5, 12
-    ADD R1, R4, 12
-    ADD R2, R3, 12
-
-    STR R1, R0, beancounter
-    STR R2, R0, beancounter
-    STR R3, R0, beancounter
-    STR R4, R0, beancounter
-    STR R5, R0, beancounter
-
-    ADD R5, R1, 0
-    ADD R6, R3, 0
-    ADD R7, R4, 0
-
-    AND R1, R1, 0
-    AND R3, R3, 0
-    AND R4, R4, 0
-    ADD R1, R1, 8
-    ADD R3, R3, 2
-    ADD R4, R4, 2
-
-    BRp T1
-    ADD R3, R3, 1
+        LEA R0, ThisDataSeg
+        AND R1, R1, 0
+        AND R2, R2, 0
+        AND R3, R3, 0
+        ADD R3, R3, 13
+        ADD R2, R2, 4xB
+        ADD R1, R2, R3
+        ADD R4, R1, 3
+        LSHF R2, R2, 3
+        NOT R5, R3
+        AND R3, R2, 15
+        NOP
+        NOP
+        ADD R5, R3, R3
+        ADD R1, R4, 5
+        ADD R1, R4, 10
+        ADD R1, R4, 14
+        AND R2, R1, -1
+        STR R2, R0, BlackHole
+        STR R5, R0, BlackHole
+        ADD R0, R0, 2
+        STR R2, R0, BlackHole
+        ADD R0, R0, -2
+        LDR R3, R0, Photostat
+        LDR R3, R0, LdThis
+        STR R3, R0, Photostat
+        LDR R3, R0, nosedive
+        LDI R1, R0, compass
+        ADD R4, R3, 11
+        LDR R3, R0, tailspin
+        rshfl R4, R4, 1
+        ADD R5, R3, 7
+        ADD R5, R5, 12
+        ADD R1, R4, 12
+        ADD R2, R3, 12
+        STR R1, R0, beancounter
+        STR R2, R0, beancounter
+        STR R3, R0, beancounter
+        STR R4, R0, beancounter
+        STR R5, R0, beancounter
+        ADD R5, R1, 0
+        ADD R6, R3, 0
+        ADD R7, R4, 0
+        AND R1, R1, 0
+        AND R3, R3, 0
+        AND R4, R4, 0
+        ADD R1, R1, 8
+        ADD R3, R3, 2
+        ADD R4, R4, 2
+        BRp T1
+        ADD R3, R3, 1
 T1:
     ADD R1, R1, 9
     BRn T2
     ADD R4, R4, 1
-
     LDR R0, R0, beancounter
-
     LEA R0, DataSegment
     LDR R2, R0, SPOT1
     LDR R6, R0, SPOT2
     LDR R7, R0, SPOT3
-
     LEA R0, ThisDataSeg
     AND R3, R3, 0
     AND R4, R4, 0
     NOP
     ADD R3, R3, 2
     ADD R4, R4, 3
-
 T2:
     LDR R1, R0, pessimist
     BRn T3
@@ -488,18 +396,14 @@ T5:
     ADD R4, R4, 1
 T6:
     AND R1, R0, 0
-
     LEA R1, ThisDataSeg
     BRp T7
     ADD R3, R3, 1
-
 T7:
     STR R3, R0, cc1
     STR R4, R0, cc2
-
     AND R1, R1, 0
     AND R5, R5, 0
-
     ADD R1, R1, -1
     BRn T10
     ADD R5, R5, 1
@@ -511,14 +415,11 @@ T10:
     NOP
     STR R5, R0, acorn
     ADD R0, R5, 0
-
 SEGMENT GoofyCode:
     AND R5, R5, 0
-
     LEA R1, GetHere
     JMP R1
     ADD R5, R5, 1
-
 GetHere:
     ADD R5, R0, R5
     LEA R0, DataSegment
@@ -528,9 +429,7 @@ GetHere:
     LDR R1, R0, FUN
     LEA R0, ThisDataSeg
     STR R5, R0, BlackHole
-
     brnzp MoneyMoney
-
 SEGMENT ThisDataSeg:
 BlackHole:  DATA2 0
 WormHole:   DATA2 0
@@ -548,9 +447,7 @@ cc2:        DATA2 4xf00f
 acorn:      DATA2 4x0FEE
 quark:      DATA2 4x276C
 payout:     DATA2 MoneyMoney
-
 SEGMENT MoneyMoney:
-
     AND R7, R7, 0
     AND R6, R6, 0
     AND R5, R5, 0
@@ -559,172 +456,140 @@ SEGMENT MoneyMoney:
     AND R2, R2, 0
     AND R1, R1, 0
     AND R0, R0, 0
-
     LEA R0, DataSegmentMtest
-
     LEA R1, Matrix1
     LDR R2, R0, Counter2
     LDR R3, R0, TWOFIVESIX
 FillM1:
-    STR R2, R1, 0
-    ADD R2, R2, -7
-    ADD R1, R1, 2
-    ADD R3, R3, -1
-    BRp FillM1
-
-    LEA R4, Matrix1
-    LDR R2, R0, TWOFIVESIX
-    ADD R4, R2, R4
-    LDR R3, R0, Counter2
-    AND R1, R1, 0
-    AND R2, R2, 0
-
+        STR R2, R1, 0
+        ADD R2, R2, -7
+        ADD R1, R1, 2
+        ADD R3, R3, -1
+        BRp FillM1
+        LEA R4, Matrix1
+        LDR R2, R0, TWOFIVESIX
+        LDR R3, R0, Counter2
+        ADD R4, R2, R4
+        AND R1, R1, 0
+        AND R2, R2, 0
 FILLM2:
-    JSR CalAddress
-    ADD R6, R5, R4
-    STR  R3, R6, 0
-    ADD R3, R3, -2
-    JSR CalNext2
-    ADD R5, R1, 0
-    BRzp FillM2
-
-    LEA R4,  Matrix1
-    LDR R2, R0, TWOFIVESIX
-    ADD R4, R2, R4
-    ADD R4, R2, R4
-    LDR R3, R0, Counter2
-    AND R1, R1, 0
-    AND R2, R2, 0
+        JSR CalAddress
+        ADD R6, R5, R4
+        STR  R3, R6, 0
+        ADD R3, R3, -2
+        JSR CalNext2
+        ADD R5, R1, 0
+        BRzp FillM2
+        LEA R4,  Matrix1
+        LDR R2, R0, TWOFIVESIX
+        LDR R3, R0, Counter2
+        ADD R4, R2, R4
+        ADD R4, R2, R4
+        AND R1, R1, 0
+        AND R2, R2, 0
 FILLM3:
-    JSR CalAddress
-    ADD R6, R5, R4
-    STR  R3, R6, 0
-    ADD R3, R3, -5
-    JSR CalNext3
-    ADD R5, R1, 0
-    BRzp FillM3
-
-    LEA R3, Matrix1
-    LDR R4, R0, TWOFIVESIX
-    ADD R4, R3, R4
-    AND R6, R6, 0
-
+        JSR CalAddress
+        ADD R6, R5, R4
+        STR  R3, R6, 0
+        ADD R3, R3, -5
+        JSR CalNext3
+        ADD R5, R1, 0
+        BRzp FillM3
+        LEA R3, Matrix1
+        LDR R4, R0, TWOFIVESIX
+        AND R6, R6, 0
+        ADD R4, R3, R4
 Continue1_2:
-
-    LDR R1, R0, X2
-    LDR R2, R0, Y2
-    JSR CalAddress
-    ADD R7, R5, R4
-    LDR R6, R7, 0
-    JSR CALNEXT3
-    STR R1, R0, X2
-    STR R2, R0, Y2
-    
-    LDR R1, R0, X1
-    LDR R2, R0, Y1
-    JSR CalAddress
-    ADD R5, R5, R3
-    LDR R7, R5, 0
-    ADD R6, R6, R7
-    STR R6, R5, 0
-    
-    JSR CALNEXT2
-    ADD R7, R1, 0
-    BRn Done3
-    STR R1, R0, X1
-    STR R2, R0, Y1
-    
-    BRnzp COntinue1_2
+        LDR R1, R0, X2
+        LDR R2, R0, Y2
+        JSR CalAddress
+        ADD R7, R5, R4
+        LDR R6, R7, 0
+        JSR CALNEXT3
+        STR R1, R0, X2
+        STR R2, R0, Y2
+        LDR R1, R0, X1
+        LDR R2, R0, Y1
+        JSR CalAddress
+        ADD R5, R5, R3
+        LDR R7, R5, 0
+        ADD R6, R6, R7
+        STR R6, R5, 0
+        JSR CALNEXT2
+        ADD R7, R1, 0
+        BRn Done3
+        STR R1, R0, X1
+        STR R2, R0, Y1
+        BRnzp COntinue1_2
 Done3:
-
-    AND R1, R1, 0
-    STR  R1, R0, X1
-    STR R1, R0, X2
-    STR  R1, R0, Y1
-    STR  R1, R0, Y2
-    
-    LEA R3,  Matrix1
-    LDR R4, R0, TWOFIVESIX
-    ADD R4, R4, R4
-    ADD R4, R3, R4
-    AND R6, R6, 0
-
+        AND R1, R1, 0
+        STR  R1, R0, X1
+        STR R1, R0, X2
+        STR  R1, R0, Y1
+        STR  R1, R0, Y2
+        LEA R3,  Matrix1
+        LDR R4, R0, TWOFIVESIX
+        AND R6, R6, 0
+        ADD R4, R4, R4
+        ADD R4, R3, R4
 Continue1_3:
-
-    LDR R1, R0, X2
-    LDR R2, R0, Y2
-    JSR CalAddress
-    ADD R7, R5, R3
-    LDR R6, R7, 0
-    JSR CALNEXT1
-    STR R1, R0, X2
-    STR R2, R0, Y2
-    
-    LDR R1, R0, X1
-    LDR R2, R0, Y1
-    JSR CalAddress
-    ADD R5, R5, R4
-    LDR R7, R5, 0
-    ADD R6, R6, R7
-    STR R6, R5, 0
-    
-    JSR CALNEXT3
-    ADD R7, R1, 0
-    BRn Done4
-    STR R1, R0, X1
-    STR R2, R0, Y1
-    
-    BRnzp COntinue1_3
+        LDR R1, R0, X2
+        LDR R2, R0, Y2
+        JSR CalAddress
+        ADD R7, R5, R3
+        LDR R6, R7, 0
+        JSR CALNEXT1
+        STR R1, R0, X2
+        STR R2, R0, Y2
+        LDR R1, R0, X1
+        LDR R2, R0, Y1
+        JSR CalAddress
+        ADD R5, R5, R4
+        LDR R7, R5, 0
+        ADD R6, R6, R7
+        STR R6, R5, 0
+        JSR CALNEXT3
+        ADD R7, R1, 0
+        BRn Done4
+        STR R1, R0, X1
+        STR R2, R0, Y1
+        BRnzp COntinue1_3
 Done4:
-
     BRnzp CheckSUM
-
 CalNEXT1:
-
     ADD R5, R1, -15
     BRz Ytest
     ADD R1, R1, 1
     BRnzp SKIP
-
 YTEST:
     ADD R5, R2, -15
     BRz DoneFor
     ADD R2, R2, 1
     AND R1, R1, 0
     BRnzp SKIP
-
 DoneFor:
     AND R1, R1, 0
     ADD R1, R1, -1
-
 SKip:
     RET
-
 CalNEXT2:
-
     ADD R5, R2, -15
     BRz Xtest
     ADD R2, R2, 1
     BRnzp SKIP1
-
 XTEST:
     ADD R5, R1, -15
     BRz Done1
     ADD R1, R1, 1
     AND R2, R2, 0
     BRnzp SKIP1
-
 Done1:
     AND R1, R1, 0
     ADD R1, R1, -1
-
 SKip1:
     RET
-
 CalNEXT3:
-
     STR R3, R0, TEMP3
-    
     ADD R3, R1, -15
     BRz DRow
     ADD R3, R2, 0
@@ -732,101 +597,76 @@ CalNEXT3:
     LDR R3, R0, NEGONEFIVE
     ADD R3, R1, -15
     BRz DRow
-    
     ADD R1, R1, 1
     ADD R2, R2, -1
     BRnzp SKIP2
-
 DRow1:
     ADD R2, R1, 1
     AND R1, R1, 0
     BRnzp SKIP2
-
 DRow:
     ADD R3, R2, -15
     BRz Done2
-
     ADD R1, R2, 1
     AND R2, R2, 0
     ADD R2, R2, 15
     BRnzp SKIP2
-
 Done2:
     AND R1, R1, 0
     ADD R1, R1, -1
-
 SKIP2:
     LDR R3, R0, TEMP3
     RET
-
 CalAddress:
     LSHF R5, R2, 4
     ADD R5, R1, R5
     LSHF R5, R5, 1
     RET
-
 CHECKSUM:
-
-    LEA  R1, Matrix1
-    LDR R4, R0, TWOFIVESIX
-    ADD R4, R4, R4
-    ADD R1, R4, R1
-    AND R7, R7, 0
-    AND R6, R6, 0
-    AND R5, R5, 0
-    AND R4, R4, 0
-
-    LDR  R2, R0, ONEFOURTHREE
+        LEA  R1, Matrix1
+        LDR R4, R0, TWOFIVESIX
+        AND R7, R7, 0
+        ADD R4, R4, R4
+        ADD R1, R4, R1
+        AND R6, R6, 0
+        AND R5, R5, 0
+        AND R4, R4, 0
+        LDR  R2, R0, ONEFOURTHREE
 LoopRowsA:
-    LDR  R3, R1, 0
-    ADD R4, R3, R4
-    ADD R1, R1, 2
-    ADD R2, R2, -1
-    BRzp LoopRowsA
-    
-    LSHF R4,R4,2
-    
-    LDR  R2, R0, ONEFOURTHREE
+        LDR  R3, R1, 0
+        ADD R1, R1, 2
+        ADD R4, R3, R4
+        ADD R2, R2, -1
+        BRzp LoopRowsA
+        LSHF R4,R4,2
+        LDR  R2, R0, ONEFOURTHREE
 LoopRowsB:
-    LDR  R3, R1, 0
-    ADD R5, R3, R5
-    ADD R1, R1, 2
-    ADD R2, R2, -1
-    BRzp LoopRowsB
-
-    LSHF R5,R5,2
-    
-    LDR  R2, R0, ONEFOURTHREE
+        LDR  R3, R1, 0
+        ADD R1, R1, 2
+        ADD R5, R3, R5
+        ADD R2, R2, -1
+        BRzp LoopRowsB
+        LSHF R5,R5,2
+        LDR  R2, R0, ONEFOURTHREE
 LoopRowsC:
-    LDR  R3, R1, 0
-    ADD R6, R3, R6
-    ADD R1, R1, 2
-    ADD R2, R2, -1
-    BRzp LoopRowsC
-    
-    LSHF R6,R6,2
-    
-    LDR  R2, R0, ONEFOURTHREE
+        LDR  R3, R1, 0
+        ADD R1, R1, 2
+        ADD R6, R3, R6
+        ADD R2, R2, -1
+        BRzp LoopRowsC
+        LSHF R6,R6,2
+        LDR  R2, R0, ONEFOURTHREE
 LoopRowsD:
-    LDR  R3, R1, 0
-    ADD R7, R3, R7
-    ADD R1, R1, 2
-    ADD R2, R2, -1
-    BRzp LoopRowsD
-    
-    AND R3, R3,R7
-    NOT R7,R7
-    
-    
-    
+        LDR  R3, R1, 0
+        ADD R1, R1, 2
+        ADD R7, R3, R7
+        ADD R2, R2, -1
+        BRzp LoopRowsD
+        AND R3, R3,R7
+        NOT R7,R7
     HALT:
     BRnzp HALT
-
-
-
-
 SEGMENT DataSegmentMtest:
-
 X1:             DATA2    4x0000
 Y1:             DATA2    4x0000
 X2:             DATA2    4x0000
@@ -842,9 +682,7 @@ Counter2:       DATA2    4x4A3F
 ONEFOURTHREE:   DATA2        63
 NEGONEFIVE:     DATA2       -15
 Mask:           Data2    4x00FF
-
 SEGMENT Matrix1:
-
 M00:    DATA2           4x0000
 M01:    DATA2           4x0000
 M02:    DATA2           4x0000
@@ -861,7 +699,6 @@ M0C:    DATA2           4x0000
 M0D:    DATA2           4x0000
 M0E:    DATA2           4x0000
 M0F:    DATA2           4x0000
-
 M10:    DATA2           4x0000
 M11:    DATA2           4x0000
 M12:    DATA2           4x0000
@@ -878,7 +715,6 @@ M1C:    DATA2           4x0000
 M1D:    DATA2           4x0000
 M1E:    DATA2           4x0000
 M1F:    DATA2           4x0000
-
 M20:    DATA2           4x0000
 M21:    DATA2           4x0000
 M22:    DATA2           4x0000
@@ -895,7 +731,6 @@ M2C:    DATA2           4x0000
 M2D:    DATA2           4x0000
 M2E:    DATA2           4x0000
 M2F:    DATA2           4x0000
-
 M30:    DATA2           4x0000
 M31:    DATA2           4x0000
 M32:    DATA2           4x0000
@@ -912,7 +747,6 @@ M3C:    DATA2           4x0000
 M3D:    DATA2           4x0000
 M3E:    DATA2           4x0000
 M3F:    DATA2           4x0000
-
 M40:    DATA2           4x0000
 M41:    DATA2           4x0000
 M42:    DATA2           4x0000
@@ -929,7 +763,6 @@ M4C:    DATA2           4x0000
 M4D:    DATA2           4x0000
 M4E:    DATA2           4x0000
 M4F:    DATA2           4x0000
-
 M50:    DATA2           4x0000
 M51:    DATA2           4x0000
 M52:    DATA2           4x0000
@@ -946,7 +779,6 @@ M5C:    DATA2           4x0000
 M5D:    DATA2           4x0000
 M5E:    DATA2           4x0000
 M5F:    DATA2           4x0000
-
 M60:    DATA2           4x0000
 M61:    DATA2           4x0000
 M62:    DATA2           4x0000
@@ -963,7 +795,6 @@ M6C:    DATA2           4x0000
 M6D:    DATA2           4x0000
 M6E:    DATA2           4x0000
 M6F:    DATA2           4x0000
-
 M70:    DATA2           4x0000
 M71:    DATA2           4x0000
 M72:    DATA2           4x0000
@@ -980,7 +811,6 @@ M7C:    DATA2           4x0000
 M7D:    DATA2           4x0000
 M7E:    DATA2           4x0000
 M7F:    DATA2           4x0000
-
 M80:    DATA2           4x0000
 M81:    DATA2           4x0000
 M82:    DATA2           4x0000
@@ -997,7 +827,6 @@ M8C:    DATA2           4x0000
 M8D:    DATA2           4x0000
 M8E:    DATA2           4x0000
 M8F:    DATA2           4x0000
-
 M90:    DATA2           4x0000
 M91:    DATA2           4x0000
 M92:    DATA2           4x0000
@@ -1014,7 +843,6 @@ M9C:    DATA2           4x0000
 M9D:    DATA2           4x0000
 M9E:    DATA2           4x0000
 M9F:    DATA2           4x0000
-
 MA0:    DATA2           4x0000
 MA1:    DATA2           4x0000
 MA2:    DATA2           4x0000
@@ -1031,7 +859,6 @@ MAC:    DATA2           4x0000
 MAD:    DATA2           4x0000
 MAE:    DATA2           4x0000
 MAF:    DATA2           4x0000
-
 MB0:    DATA2           4x0000
 MB1:    DATA2           4x0000
 MB2:    DATA2           4x0000
@@ -1048,7 +875,6 @@ MBC:    DATA2           4x0000
 MBD:    DATA2           4x0000
 MBE:    DATA2           4x0000
 MBF:    DATA2           4x0000
-
 MC0:    DATA2           4x0000
 MC1:    DATA2           4x0000
 MC2:    DATA2           4x0000
@@ -1065,7 +891,6 @@ MCC:    DATA2           4x0000
 MCD:    DATA2           4x0000
 MCE:    DATA2           4x0000
 MCF:    DATA2           4x0000
-
 MD0:    DATA2           4x0000
 MD1:    DATA2           4x0000
 MD2:    DATA2           4x0000
@@ -1082,7 +907,6 @@ MDC:    DATA2           4x0000
 MDD:    DATA2           4x0000
 MDE:    DATA2           4x0000
 MDF:    DATA2           4x0000
-
 ME0:    DATA2           4x0000
 ME1:    DATA2           4x0000
 ME2:    DATA2           4x0000
@@ -1099,7 +923,6 @@ MEC:    DATA2           4x0000
 MED:    DATA2           4x0000
 MEE:    DATA2           4x0000
 MEF:    DATA2           4x0000
-
 MF0:    DATA2           4x0000
 MF1:    DATA2           4x0000
 MF2:    DATA2           4x0000
@@ -1116,13 +939,7 @@ MFC:    DATA2           4x0000
 MFD:    DATA2           4x0000
 MFE:    DATA2           4x0000
 MFF:    DATA2           4x0000
-
-
-
-
-
 SEGMENT Matrix2:
-
 N00:    DATA2           4x0000
 N01:    DATA2           4x0000
 N02:    DATA2           4x0000
@@ -1139,7 +956,6 @@ N0C:    DATA2           4x0000
 N0D:    DATA2           4x0000
 N0E:    DATA2           4x0000
 N0F:    DATA2           4x0000
-
 N10:    DATA2           4x0000
 N11:    DATA2           4x0000
 N12:    DATA2           4x0000
@@ -1156,7 +972,6 @@ N1C:    DATA2           4x0000
 N1D:    DATA2           4x0000
 N1E:    DATA2           4x0000
 N1F:    DATA2           4x0000
-
 N20:    DATA2           4x0000
 N21:    DATA2           4x0000
 N22:    DATA2           4x0000
@@ -1173,7 +988,6 @@ N2C:    DATA2           4x0000
 N2D:    DATA2           4x0000
 N2E:    DATA2           4x0000
 N2F:    DATA2           4x0000
-
 N30:    DATA2           4x0000
 N31:    DATA2           4x0000
 N32:    DATA2           4x0000
@@ -1190,7 +1004,6 @@ N3C:    DATA2           4x0000
 N3D:    DATA2           4x0000
 N3E:    DATA2           4x0000
 N3F:    DATA2           4x0000
-
 N40:    DATA2           4x0000
 N41:    DATA2           4x0000
 N42:    DATA2           4x0000
@@ -1207,7 +1020,6 @@ N4C:    DATA2           4x0000
 N4D:    DATA2           4x0000
 N4E:    DATA2           4x0000
 N4F:    DATA2           4x0000
-
 N50:    DATA2           4x0000
 N51:    DATA2           4x0000
 N52:    DATA2           4x0000
@@ -1224,7 +1036,6 @@ N5C:    DATA2           4x0000
 N5D:    DATA2           4x0000
 N5E:    DATA2           4x0000
 N5F:    DATA2           4x0000
-
 N60:    DATA2           4x0000
 N61:    DATA2           4x0000
 N62:    DATA2           4x0000
@@ -1241,7 +1052,6 @@ N6C:    DATA2           4x0000
 N6D:    DATA2           4x0000
 N6E:    DATA2           4x0000
 N6F:    DATA2           4x0000
-
 N70:    DATA2           4x0000
 N71:    DATA2           4x0000
 N72:    DATA2           4x0000
@@ -1258,7 +1068,6 @@ N7C:    DATA2           4x0000
 N7D:    DATA2           4x0000
 N7E:    DATA2           4x0000
 N7F:    DATA2           4x0000
-
 N80:    DATA2           4x0000
 N81:    DATA2           4x0000
 N82:    DATA2           4x0000
@@ -1275,7 +1084,6 @@ N8C:    DATA2           4x0000
 N8D:    DATA2           4x0000
 N8E:    DATA2           4x0000
 N8F:    DATA2           4x0000
-
 N90:    DATA2           4x0000
 N91:    DATA2           4x0000
 N92:    DATA2           4x0000
@@ -1292,7 +1100,6 @@ N9C:    DATA2           4x0000
 N9D:    DATA2           4x0000
 N9E:    DATA2           4x0000
 N9F:    DATA2           4x0000
-
 NA0:    DATA2           4x0000
 NA1:    DATA2           4x0000
 NA2:    DATA2           4x0000
@@ -1309,7 +1116,6 @@ NAC:    DATA2           4x0000
 NAD:    DATA2           4x0000
 NAE:    DATA2           4x0000
 NAF:    DATA2           4x0000
-
 NB0:    DATA2           4x0000
 NB1:    DATA2           4x0000
 NB2:    DATA2           4x0000
@@ -1326,7 +1132,6 @@ NBC:    DATA2           4x0000
 NBD:    DATA2           4x0000
 NBE:    DATA2           4x0000
 NBF:    DATA2           4x0000
-
 NC0:    DATA2           4x0000
 NC1:    DATA2           4x0000
 NC2:    DATA2           4x0000
@@ -1343,7 +1148,6 @@ NCC:    DATA2           4x0000
 NCD:    DATA2           4x0000
 NCE:    DATA2           4x0000
 NCF:    DATA2           4x0000
-
 ND0:    DATA2           4x0000
 ND1:    DATA2           4x0000
 ND2:    DATA2           4x0000
@@ -1360,7 +1164,6 @@ NDC:    DATA2           4x0000
 NDD:    DATA2           4x0000
 NDE:    DATA2           4x0000
 NDF:    DATA2           4x0000
-
 NE0:    DATA2           4x0000
 NE1:    DATA2           4x0000
 NE2:    DATA2           4x0000
@@ -1377,7 +1180,6 @@ NEC:    DATA2           4x0000
 NED:    DATA2           4x0000
 NEE:    DATA2           4x0000
 NEF:    DATA2           4x0000
-
 NF0:    DATA2           4x0000
 NF1:    DATA2           4x0000
 NF2:    DATA2           4x0000
@@ -1394,10 +1196,7 @@ NFC:    DATA2           4x0000
 NFD:    DATA2           4x0000
 NFE:    DATA2           4x0000
 NFF:    DATA2           4x0000
-
-
 SEGMENT Matrix3:
-
 O00:    DATA2           4x0000
 O01:    DATA2           4x0000
 O02:    DATA2           4x0000
@@ -1414,7 +1213,6 @@ O0C:    DATA2           4x0000
 O0D:    DATA2           4x0000
 O0E:    DATA2           4x0000
 O0F:    DATA2           4x0000
-
 O10:    DATA2           4x0000
 O11:    DATA2           4x0000
 O12:    DATA2           4x0000
@@ -1431,7 +1229,6 @@ O1C:    DATA2           4x0000
 O1D:    DATA2           4x0000
 O1E:    DATA2           4x0000
 O1F:    DATA2           4x0000
-
 O20:    DATA2           4x0000
 O21:    DATA2           4x0000
 O22:    DATA2           4x0000
@@ -1448,7 +1245,6 @@ O2C:    DATA2           4x0000
 O2D:    DATA2           4x0000
 O2E:    DATA2           4x0000
 O2F:    DATA2           4x0000
-
 O30:    DATA2           4x0000
 O31:    DATA2           4x0000
 O32:    DATA2           4x0000
@@ -1465,7 +1261,6 @@ O3C:    DATA2           4x0000
 O3D:    DATA2           4x0000
 O3E:    DATA2           4x0000
 O3F:    DATA2           4x0000
-
 O40:    DATA2           4x0000
 O41:    DATA2           4x0000
 O42:    DATA2           4x0000
@@ -1482,7 +1277,6 @@ O4C:    DATA2           4x0000
 O4D:    DATA2           4x0000
 O4E:    DATA2           4x0000
 O4F:    DATA2           4x0000
-
 O50:    DATA2           4x0000
 O51:    DATA2           4x0000
 O52:    DATA2           4x0000
@@ -1499,7 +1293,6 @@ O5C:    DATA2           4x0000
 O5D:    DATA2           4x0000
 O5E:    DATA2           4x0000
 O5F:    DATA2           4x0000
-
 O60:    DATA2           4x0000
 O61:    DATA2           4x0000
 O62:    DATA2           4x0000
@@ -1516,7 +1309,6 @@ O6C:    DATA2           4x0000
 O6D:    DATA2           4x0000
 O6E:    DATA2           4x0000
 O6F:    DATA2           4x0000
-
 O70:    DATA2           4x0000
 O71:    DATA2           4x0000
 O72:    DATA2           4x0000
@@ -1533,7 +1325,6 @@ O7C:    DATA2           4x0000
 O7D:    DATA2           4x0000
 O7E:    DATA2           4x0000
 O7F:    DATA2           4x0000
-
 O80:    DATA2           4x0000
 O81:    DATA2           4x0000
 O82:    DATA2           4x0000
@@ -1550,7 +1341,6 @@ O8C:    DATA2           4x0000
 O8D:    DATA2           4x0000
 O8E:    DATA2           4x0000
 O8F:    DATA2           4x0000
-
 O90:    DATA2           4x0000
 O91:    DATA2           4x0000
 O92:    DATA2           4x0000
@@ -1567,7 +1357,6 @@ O9C:    DATA2           4x0000
 O9D:    DATA2           4x0000
 O9E:    DATA2           4x0000
 O9F:    DATA2           4x0000
-
 OA0:    DATA2           4x0000
 OA1:    DATA2           4x0000
 OA2:    DATA2           4x0000
@@ -1584,7 +1373,6 @@ OAC:    DATA2           4x0000
 OAD:    DATA2           4x0000
 OAE:    DATA2           4x0000
 OAF:    DATA2           4x0000
-
 OB0:    DATA2           4x0000
 OB1:    DATA2           4x0000
 OB2:    DATA2           4x0000
@@ -1601,7 +1389,6 @@ OBC:    DATA2           4x0000
 OBD:    DATA2           4x0000
 OBE:    DATA2           4x0000
 OBF:    DATA2           4x0000
-
 OC0:    DATA2           4x0000
 OC1:    DATA2           4x0000
 OC2:    DATA2           4x0000
@@ -1618,7 +1405,6 @@ OCC:    DATA2           4x0000
 OCD:    DATA2           4x0000
 OCE:    DATA2           4x0000
 OCF:    DATA2           4x0000
-
 OD0:    DATA2           4x0000
 OD1:    DATA2           4x0000
 OD2:    DATA2           4x0000
@@ -1635,7 +1421,6 @@ ODC:    DATA2           4x0000
 ODD:    DATA2           4x0000
 ODE:    DATA2           4x0000
 ODF:    DATA2           4x0000
-
 OE0:    DATA2           4x0000
 OE1:    DATA2           4x0000
 OE2:    DATA2           4x0000
@@ -1652,7 +1437,6 @@ OEC:    DATA2           4x0000
 OED:    DATA2           4x0000
 OEE:    DATA2           4x0000
 OEF:    DATA2           4x0000
-
 OF0:    DATA2           4x0000
 OF1:    DATA2           4x0000
 OF2:    DATA2           4x0000
@@ -1669,4 +1453,3 @@ OFC:    DATA2           4x0000
 OFD:    DATA2           4x0000
 OFE:    DATA2           4x0000
 OFF:    DATA2           4x0000
-

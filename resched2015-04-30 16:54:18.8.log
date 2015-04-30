@@ -1,0 +1,72 @@
+2015-04-30 16:54:18,812'INFO:Set logger---
+2015-04-30 16:54:18,812'INFO:binding_blocks:clean: Complete
+2015-04-30 16:54:18,812'INFO:binding_blocks:consolidate:Entered
+2015-04-30 16:54:18,812'INFO:building_blocks : consolidated
+2015-04-30 16:54:18,813'INFO:build_dep:alp=0
+2015-04-30 16:54:18,813'INFO:building_blocks:getblock:got  0 as block_num
+2015-04-30 16:54:18,813'INFO:binding_blocks:getblock: Returned data request for 0
+2015-04-30 16:54:18,813'INFO:build_dep:Returned:    ADD R1, R2, R7
+
+2015-04-30 16:54:18,813'INFO:build_dep:Returned:    ADD R3, R1, -4
+
+2015-04-30 16:54:18,813'INFO:build_dep:Returned:    ADD R1, R1, R3
+
+2015-04-30 16:54:18,813'INFO:build_dep:Returned:    ADD R1, R1, R1
+
+2015-04-30 16:54:18,813'INFO:build_dep:Returned:    ADD R1, R2, R7
+
+2015-04-30 16:54:18,813'INFO:build_dep:Returned:    LDR R3, R1, -4
+
+2015-04-30 16:54:18,813'INFO:build_dep:Returned:    ADD R1, R1, R3
+
+2015-04-30 16:54:18,813'INFO:build_dep:Returned:    ADD R1, R2, R0
+
+2015-04-30 16:54:18,813'INFO:build_dep:Returned:    ADD R3 , R2 , R0
+
+2015-04-30 16:54:18,814'INFO:build_dep:Returned:    ADD R3, R1, R2       
+
+2015-04-30 16:54:18,814'INFO:build_dep:Returned:    AND R5, R2, R2       
+
+2015-04-30 16:54:18,814'INFO:build_dep:Returned:    NOT R6, R1           
+
+2015-04-30 16:54:18,814'INFO:build_dep:Returned:    NOP
+
+2015-04-30 16:54:18,814'INFO:build_dep:Returned:    NOP
+
+2015-04-30 16:54:18,814'INFO:build_dep:Returned:    NOP
+
+2015-04-30 16:54:18,814'INFO:build_dep:Returned:    NOP
+
+2015-04-30 16:54:18,814'INFO:build_dep:Returned:    NOP
+
+2015-04-30 16:54:18,814'INFO:build_dep:Returned:    NOP
+
+2015-04-30 16:54:18,814'INFO:build_dep:Returned:    NOP
+
+2015-04-30 16:54:18,814'INFO:build_dep:Returned:    STR R6, R0, TEMP1    
+
+2015-04-30 16:54:18,814'INFO:build_dep:Returned:    LDR R7, R0, TEMP1    
+
+2015-04-30 16:54:18,814'INFO:build_dep:Returned:    LDR R1, R1, R4       
+
+2015-04-30 16:54:18,814'INFO:analyzing block 0
+2015-04-30 16:54:18,814'INFO:	No optimizations possible in block 0
+2015-04-30 16:54:18,814'INFO:graphit:Entered , received params[[5, 54]]
+2015-04-30 16:54:18,814'INFO:graphit:Corrected size
+2015-04-30 16:54:18,815'INFO:graphit:    LDR R3, R1, -4
+
+    ADD R1, R1, R3
+
+2015-04-30 16:54:18,815'INFO:graphit:     ADD R1, R2, R0
+
+2015-04-30 16:54:18,815'INFO:graphit:     ADD R3 , R2 , R0
+
+2015-04-30 16:54:18,815'INFO:graphit:     ADD R3, R1, R2       
+
+2015-04-30 16:54:18,815'INFO:graphit:     AND R5, R2, R2       
+
+2015-04-30 16:54:18,815'DEBUG:graphit:FOUND CANDIDATE     AND R5, R2, R2       
+
+2015-04-30 16:54:18,815'INFO:rawoverwrite: Entered
+2015-04-30 16:54:18,815'DEBUG:Total Possible Hazards1
+2015-04-30 16:54:18,815'CRITICAL:binding_blocks:writetofile:WROTE FILE to testingcode/mp2_resch.asm

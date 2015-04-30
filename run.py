@@ -17,9 +17,13 @@ def getcontents(args):
     dat = []
     g = a.readline()
     while '' != g:
-        print [g]
+        #print [g]
         g = g.replace("\t","    ")
         #remove comments
+        if ":" not in g:
+            if "ORIGIN" not in g:
+                if g[0]!=" ":
+                    g = "    "+g
         if ";" in g:
             g = g[:g.index(";")]+"\n"
         if g != "\n" and len(g.lstrip())>0:
@@ -30,20 +34,21 @@ def getcontents(args):
         g = a.readline()
 
     a.close()
-    divblocks(dat)
+    divblocks(dat,args)
 
-def divblocks(dat):
+def divblocks(dat,args):
     bind = binding_blocks(dat)
     bind.consolidate()
     #bind.display()
     #bind.writetofile("toread.asm")
-    build_dep(bind)
+    build_dep(bind,args)
 
-def build_dep(bind):
+def build_dep(bind,args):
     global instruction_granularity
     blocks = bind.blocks
+    #bind.writetofile(args)
     if len(blocks) == 0:
-        logging.CRITICAL("build_dep:NO BLOCKS FOUND")
+        logging.critical("build_dep:NO BLOCKS FOUND")
         print "ENTER A VALID ASM"
         exit(-1)
 
@@ -55,6 +60,7 @@ def build_dep(bind):
             care,insts = parseinst(bind.getblock(alp))
             for i in insts:
                 logging.info("build_dep:Returned:"+i.rawtxt)
+
             logging.info("analyzing block "+str(alp))
             analyze = 0                                 #analyze is if blocks have a hazard.
             issues = []                                 #issues is an array of arrays. Each element in this array
@@ -65,7 +71,6 @@ def build_dep(bind):
                                                         #an array of arrays because there might be more than one hazard
                                                         #in the same block.
             #Runs several times per block.if a caremuch issue exists
-
             for each in care:
                 #If next instruction is valid
                 if len(insts) > each+1:
@@ -88,15 +93,16 @@ def build_dep(bind):
                 lel = graphit(insts,issues)
                 bind.overwriteblock(rawoverwrite(lel,alp,bind.getformatterstat()),alp)
 
-
-        logging.debug("Total Possible Hazards"+str(totalhazards))
-    bind.writetofile("tryme.asm")
+        print "Total Possible Hazards "+str(totalhazards)
+        logging.debug("Total Possible Hazards "+str(totalhazards))
+    bind.writetofile(args)
 
 #graphit builds a dependency graph for the issues in hand. After resolving it calls fixit a helper function to replace
 #the instructions.
 #Edge case , multiple LW within instruction_granularity @todo
 #Consider limits of issues (care-1)<0  , care+instruction_granularity > len(insts)
 def graphit(insts,issues):
+    #print issues
     logging.info("graphit:Entered , received params"+str(issues))
     for each in issues:
         #Care + instruction_granularity exceeds the length
@@ -208,6 +214,7 @@ class instruction:
             self.rawtxt = raw
             raw = removeinitial(raw)
             #print raw
+
             if raw[0].upper() in self.opcodes:
                 #print self.rawtxt
                 self.branchmuch = 0
@@ -284,7 +291,8 @@ def removeinitial(raw):
 
 
 
-
+#binds are an array of linenumbers where a block line starts. It is at sasdda: not the next line (where the instuction
+#starts
 class binding_blocks:
     block_distance = 4
     binds = []
@@ -310,8 +318,13 @@ class binding_blocks:
             else:
                 logging.info("binding_blocks: Cleaned " +str(self.count_newlines)+ " new lines")
                 break
+        logging.info("binding_blocks:clean: Complete")
 
-    def writetofile(self,fname=""):
+    def writetofile(self,args):
+        if args.output == "Unset":
+            fname = args.input[:-4]+"_resch.asm"
+        else:
+            fname = args.output
         if fname != "":
             g = open(fname,"wb")
             g.write("".join(self.data))
@@ -329,27 +342,92 @@ class binding_blocks:
         print "BLOCKS\n"
         print self.blocks
         print "Length of blocks is "+ str(len(self.blocks))
-
+    '''
     def consolidate(self):
+        logging.info("binding_blocks:consolidate:Entered")
         for i in xrange(len(self.data)):
             if ":" in self.data[i] and ("DATA2" not in self.data[i] or "DataSegment" not in self.data):
+                    print self.data[i]
                     self.binds.append(i)
 
             #ignore datasegs
             if "DATA2" in self.data[i] and "FILL" not in self.data[i]:
                 self.count_data2 = self.count_data2 + 1
+                logging.debug("building_blocks:consolidate: EDGE CASE IGNORED FILL")
 
-        logging.info("building_blocke : consolidated")
+        logging.info("building_blocks : consolidated")
+        print "binds are",self.binds
         self.refine()
 
     def refine(self):
         i=1
         ins = 0
+        print len(self.binds)
         while i<len(self.binds):
             if self.binds[i] - self.binds[i-1] >= self.min_block_size:  # is a block
                 self.blocks[ins] = [self.binds[i-1],self.binds[i]]
                 ins = ins + 1
             i = i + 1
+        print "blocks are",self.blocks
+
+    '''
+    def consolidate(self):
+        logging.info("binding_blocks:consolidate:Entered")
+        self.blocks = {}
+        ins = 0
+        init1 = True
+        for i in xrange(len(self.data)):
+            if ":" in self.data[i] and ("data2" not in self.data[i].lower() and "datasegment" not in self.data[i].lower()):
+                    #print self.data[i]
+                    self.binds.append(i)
+                    '''
+                    #Sanity check , is previous one complete?
+                    if init1 == False:
+                        if self.blocks[ins-1][1] == -999:
+                            logging.critical("consolidation:Failed")
+                            print "Consolidation failed"
+                            exit(-1)
+                    #Multiple :'s without actual stuff in them
+
+                    if ins in self.blocks:
+                        print ins,"in block"
+                        self.blocks[ins][0]=i
+                        print "blocks now are",self.blocks
+                        #Additional sanity check
+                        if self.blocks[ins][1]!=-999:
+                            print "CONSOLIDATION FAILED"
+                            exit(-1)
+                    if ins not in self.blocks:
+                        self.blocks[ins] = [i,-999]
+                    '''
+                    if ins in self.blocks:
+                        if self.blocks[ins][0] == i-1:
+                            self.blocks[ins][0] = i
+                            #print self.data[i] , self.blocks
+                        else:
+                            self.blocks[ins][1] = i
+                            #print self.data[i],self.blocks
+                            ins = ins + 1
+
+                    if ins not in self.blocks:
+                        self.blocks[ins] = [i,-999]
+
+            if "data2 " in self.data[i].lower() or "datasegment" in self.data[i].lower() and ":" in self.data[i].lower():
+                #print self.data[i].lower(),"entered"
+                if ins in self.blocks:
+                    self.blocks[ins][1] = i - 1
+                    ins = ins + 1
+                    #if it's not updated , update it
+
+        if ins in self.blocks:
+            if self.blocks[ins][1]==-999:
+                self.blocks[ins][1] = len(self.data)-1
+        logging.info("building_blocks : consolidated")
+        print "binds are",self.binds
+        print "new blocks are",self.blocks
+        #self.refine()
+
+
 
 
     def getblock(self,block_num):

@@ -1,0 +1,9 @@
+2015-04-30 17:40:53,001'INFO:Set logger---
+2015-04-30 17:40:53,006'INFO:binding_blocks:clean: Complete
+2015-04-30 17:40:53,006'INFO:binding_blocks:consolidate:Entered
+2015-04-30 17:40:53,667'INFO:building_blocks : consolidated
+2015-04-30 17:40:53,667'CRITICAL:binding_blocks:writetofile:WROTE FILE to hererhere.asm
+2015-04-30 17:40:53,667'INFO:build_dep:alp=0
+2015-04-30 17:40:53,667'INFO:building_blocks:getblock:got  0 as block_num
+2015-04-30 17:40:53,667'INFO:binding_blocks:getblock: Returned data request for 0
+2015-04-30 17:40:53,668'CRITICAL:instruction:init:FAILED at ['SEGMENT', 'CodeSegment2:']

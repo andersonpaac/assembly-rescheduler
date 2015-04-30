@@ -1,38 +1,29 @@
-SEGMENT  CodeSegment:
-   LDR R4 , R0 , SAMPLE 
-   NOP
-   NOP
-   NOP
-   NOP
-   LDB  R5, R0, DAMPLE     
-   LDB R6 , R0 , EAMPLE 
-   LDR R7 , R0 , EAMPLE 
-   NOP
-   NOP
-   STB R5 , R0 , SAMPLE
-   NOP
-   NOP
-   NOP
-   NOP
-   NOP
-SAMPLE: DATA2 4xA1F0
-DAMPLE: DATA2 4x0137
-EAMPLE: DATA2 4xE175
-POOP:
-   BRnzp POOP
+    SEGMENT  CodeSegment:
+   LDR  R1, R0, ONE     
+   LDR  R2, R0, TWO     
+   LDR  R4, R0, NEGONE  
    NOP
    NOP
    NOP
    NOP
    NOP
    NOP
-ONE:    DATA2 4x0001
-TWO:    DATA2 4x0002
-NEGONE: DATA2 4xFFFF
-TEMP1:  DATA2 4x0001
-GOOD:   DATA2 4x600D
-BADD:   DATA2 4xBADD
-LOOP:
+   NOP
+   BRnzp LOOP
+   NOP
+   NOP
+   NOP
+   NOP
+   NOP
+   NOP
+   NOP
+    ONE:    DATA2 4x0001
+    TWO:    DATA2 4x0002
+    NEGONE: DATA2 4xFFFF
+    TEMP1:  DATA2 4x0001
+    GOOD:   DATA2 4x600D
+    BADD:   DATA2 4xBADD
+    LOOP:
    ADD R3, R1, R2       
    AND R5, R2, R2       
    NOT R6, R1           
@@ -69,7 +60,7 @@ LOOP:
    NOP
    NOP
    NOP
-HALT:
+    HALT:
    LDR  R1, R0, BADD
    BRnzp HALT
    NOP
@@ -79,7 +70,7 @@ HALT:
    NOP
    NOP
    NOP
-DONE:
+    DONE:
    LDR  R1, R0, GOOD
    BRnzp DONE
    NOP

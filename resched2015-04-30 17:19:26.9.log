@@ -1,0 +1,6 @@
+2015-04-30 17:19:26,926'INFO:Set logger---
+2015-04-30 17:19:26,931'INFO:binding_blocks:clean: Complete
+2015-04-30 17:19:26,932'INFO:binding_blocks:consolidate:Entered
+2015-04-30 17:19:26,934'INFO:building_blocks : consolidated
+2015-04-30 17:19:26,943'CRITICAL:binding_blocks:writetofile:WROTE FILE to hererhere.asm
+2015-04-30 17:19:26,943'CRITICAL:build_dep:NO BLOCKS FOUND
