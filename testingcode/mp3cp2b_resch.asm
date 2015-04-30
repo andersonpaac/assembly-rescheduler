@@ -1,4 +1,4 @@
-    SEGMENT CodeSegment:    
+SEGMENT CodeSegment:    
     LEA R0, DataSegment
     NOP
     NOP
@@ -13,41 +13,41 @@
     NOP
     NOP
     NOP
-    SEGMENT DataSegment:
-    ZERO:       DATA2 0
-    ONETWELVE:  DATA2 112
-    ENT:        DATA2 10
-    NINER:      DATA2 9999
-    GECKO:      DATA2 42
-    NOT6:       DATA2 4xBAC8
-    THREE:      DATA2 7
-    TREE:       DATA2 3
-    BADBAD:     DATA2 4x0BAD
-    PAT1:       DATA2 4x0D0D
-    PAT2:       DATA2 4x9884
-    PAT3:       DATA2 4xAE85
-    GOOD:       DATA2 4x5460
-    five:       DATA2 5
-    TT:         DATA2 4x646
-    RES1:       DATA2 0
-    RES2:       DATA2 0
-    RES3:       DATA2 0
-    RES4:       DATA2 0
-    RES5:       DATA2 0
-    RES6:       DATA2 0
-    RES7:       DATA2 0
-    RES8:       DATA2 0
-    RES9:       DATA2 0
-    RES10:      DATA2 0
-    RES11:      DATA2 0
-    RES12:      DATA2 0
-    RES13:      DATA2 0
-    RES14:      DATA2 0
-    RES15:      DATA2 0
-    RES16:      DATA2 0
-    Bear:       DATA2 CatchMe
-    Owl:        DATA2 paris
-    skip:
+SEGMENT DataSegment:
+ZERO:       DATA2 0
+ONETWELVE:  DATA2 112
+ENT:        DATA2 10
+NINER:      DATA2 9999
+GECKO:      DATA2 42
+NOT6:       DATA2 4xBAC8
+THREE:      DATA2 7
+TREE:       DATA2 3
+BADBAD:     DATA2 4x0BAD
+PAT1:       DATA2 4x0D0D
+PAT2:       DATA2 4x9884
+PAT3:       DATA2 4xAE85
+GOOD:       DATA2 4x5460
+five:       DATA2 5
+TT:         DATA2 4x646
+RES1:       DATA2 0
+RES2:       DATA2 0
+RES3:       DATA2 0
+RES4:       DATA2 0
+RES5:       DATA2 0
+RES6:       DATA2 0
+RES7:       DATA2 0
+RES8:       DATA2 0
+RES9:       DATA2 0
+RES10:      DATA2 0
+RES11:      DATA2 0
+RES12:      DATA2 0
+RES13:      DATA2 0
+RES14:      DATA2 0
+RES15:      DATA2 0
+RES16:      DATA2 0
+Bear:       DATA2 CatchMe
+Owl:        DATA2 paris
+skip:
     LDR R1, R0, ZERO
     NOP
     NOP
@@ -300,7 +300,7 @@
     NOP
     NOP
     NOP
-    loop1:
+loop1:
     ADD R2, R2, 5
     NOP
     NOP
@@ -322,7 +322,7 @@
     NOP
     NOP
     NOP
-    loop2:
+loop2:
     ADD R1, R1, 7
     NOP
     NOP
@@ -365,7 +365,7 @@
     NOP
     NOP
     NOP
-    miami:
+miami:
     ADD R2, R2, R1
     NOP
     NOP
@@ -429,7 +429,7 @@
     NOP
     NOP
     NOP
-    portland:
+portland:
     STR R5, R0, RES10
     NOP
     NOP
@@ -535,12 +535,12 @@
     NOP
     NOP
     NOP
-    SEGMENT DataSegment2:
-    TS:     DATA2 4x646
-    RES17:  DATA2 0
-    RES18:  DATA2 0
-    RES19:  DATA2 0
-    CatchMe:
+SEGMENT DataSegment2:
+TS:     DATA2 4x646
+RES17:  DATA2 0
+RES18:  DATA2 0
+RES19:  DATA2 0
+CatchMe:
     LDR R5, R0, PAT3
     NOP
     NOP
@@ -562,7 +562,7 @@
     NOP
     NOP
     NOP
-    OverHere:
+OverHere:
     LDR R3, R0, GOOD
     NOP
     NOP
@@ -584,7 +584,7 @@
     NOP
     NOP
     NOP
-    skip2:
+skip2:
     STB R2, R1, 3
     NOP
     NOP
@@ -641,7 +641,7 @@
     NOP
     NOP
     NOP
-    SEGMENT CodeSegment2:
+SEGMENT CodeSegment2:
     LEA R4, DataSegment4
     NOP
     NOP
@@ -670,8 +670,8 @@
     NOP
     NOP
     NOP
-    SEGMENT DataSegment4:
-    Indy:
+SEGMENT DataSegment4:
+Indy:
     ADD R1, R1, 12
     NOP
     NOP
@@ -735,7 +735,7 @@
     NOP
     NOP
     NOP
-    Nati:
+Nati:
     LDR R1, R0, BADBAD
     NOP
     NOP
@@ -792,7 +792,7 @@
     NOP
     NOP
     NOP
-    dulles:
+dulles:
     LEA R6, DataSegment2
     NOP
     NOP
@@ -807,7 +807,7 @@
     NOP
     NOP
     NOP
-    bloomington:
+bloomington:
     LEA R5, DataSegment3
     NOP
     NOP
@@ -1020,7 +1020,7 @@
     NOP
     NOP
     NOP
-    Nowhere:
+Nowhere:
     BRnzp nowhere
     NOP
     NOP
@@ -1028,22 +1028,22 @@
     NOP
     NOP
     NOP
-    SEGMENT DataSegment3:
-    NINE:       DATA2 4x0009
-    BIGNUMBER:  DATA2 4x70CF
-    BYP1:       DATA2 4x0000
-    BYP2:       DATA2 4x0000
-    CS1:        DATA2 4x0000
-    CS2:        DATA2 4x0000
-    CS3:        DATA2 4x0000
-    CS4:        DATA2 4x0000
-    CS5:        DATA2 4x0000
-    CS6:        DATA2 4x0000
-    CS7:        DATA2 4x0000
-    CS8:        DATA2 4x0000
-    DSP:        DATA2 DataSegment
-    DS2P:       DATA2 DataSegment2
-    dallas:
+SEGMENT DataSegment3:
+NINE:       DATA2 4x0009
+BIGNUMBER:  DATA2 4x70CF
+BYP1:       DATA2 4x0000
+BYP2:       DATA2 4x0000
+CS1:        DATA2 4x0000
+CS2:        DATA2 4x0000
+CS3:        DATA2 4x0000
+CS4:        DATA2 4x0000
+CS5:        DATA2 4x0000
+CS6:        DATA2 4x0000
+CS7:        DATA2 4x0000
+CS8:        DATA2 4x0000
+DSP:        DATA2 DataSegment
+DS2P:       DATA2 DataSegment2
+dallas:
     NOT R6, R7
     NOP
     NOP
@@ -1058,7 +1058,7 @@
     NOP
     NOP
     NOP
-    atlanta:
+atlanta:
     AND R2, R0, R1
     NOP
     NOP
@@ -1103,7 +1103,7 @@
     NOP
     NOP
     NOP
-    paris:
+paris:
     LDR R1, R0, BADBAD
     NOP
     NOP

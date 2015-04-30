@@ -1,6 +1,6 @@
-    ORIGIN 2000
+ORIGIN 2000
     SEGMENT
-    CodeSegment:    
+CodeSegment:    
         ADD R1, R2, R7
         ADD R3, R1, -4
         ADD R1, R1, R3
