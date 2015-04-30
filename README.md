@@ -13,6 +13,4 @@ Current :
     Can detect hazards
    
 @todo:
-    SUpport for INT_MAX instruction_granularity
-    
-iS alp returning 1st block
+    Unhandled edges:    multiple in one
