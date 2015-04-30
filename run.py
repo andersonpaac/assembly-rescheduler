@@ -17,7 +17,12 @@ def getcontents(args):
     dat = []
     g = a.readline()
     while '' != g:
-        if g != "\n":
+        print [g]
+        g = g.replace("\t","    ")
+        #remove comments
+        if ";" in g:
+            g = g[:g.index(";")]+"\n"
+        if g != "\n" and len(g.lstrip())>0:
             if g.lstrip()[0] != ";":
                 if len(g) -1 > g.count(" "):
                     dat.append(g)
@@ -245,7 +250,8 @@ class instruction:
 
 
             else:
-                print raw , "failed"
+                
+                print [raw] , "failed"
                 logging.critical("instruction:init:FAILED at "+str(raw))
                 exit(-1)
             if raw[0].upper() in self.opcodes_rmem:
