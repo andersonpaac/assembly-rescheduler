@@ -18,8 +18,10 @@ def getcontents(args):
     g = a.readline()
     while '' != g:
         if g != "\n":
-            if len(g) -1 > g.count(" "):
-                dat.append(g)
+            if g.lstrip()[0] != ";":
+                if len(g) -1 > g.count(" "):
+                    dat.append(g)
+
         g = a.readline()
 
     a.close()
@@ -28,7 +30,7 @@ def getcontents(args):
 def divblocks(dat):
     bind = binding_blocks(dat)
     bind.consolidate()
-    bind.display()
+    #bind.display()
     #bind.writetofile("toread.asm")
     build_dep(bind)
 
@@ -83,7 +85,7 @@ def build_dep(bind):
 
 
         logging.debug("Total Possible Hazards"+str(totalhazards))
-        bind.writetofile("tryme.asm")
+    bind.writetofile("tryme.asm")
 
 #graphit builds a dependency graph for the issues in hand. After resolving it calls fixit a helper function to replace
 #the instructions.
@@ -244,7 +246,7 @@ class instruction:
 
             else:
                 print raw , "failed"
-                logging.CRITICAL("instruction:init:FAILED at "+str(raw))
+                logging.critical("instruction:init:FAILED at "+str(raw))
                 exit(-1)
             if raw[0].upper() in self.opcodes_rmem:
                 self.caremuch = 1
@@ -309,6 +311,7 @@ class binding_blocks:
             g.write("".join(self.data))
             g.close()
         logging.critical("binding_blocks:writetofile:WROTE FILE to "+fname)
+        print "Written to "+fname
 
     def addto(self,linenumber):
         self.binds.append(linenumber)
@@ -347,7 +350,7 @@ class binding_blocks:
         logging.info("building_blocks:getblock:got  "+str(block_num)+" as block_num")
         if block_num > len(self.blocks):
             print "Invalid block"
-            logging.CRITICAL("building_blocks:getblock:INVALID BLOCK")
+            logging.critical("building_blocks:getblock:INVALID BLOCK")
             exit(-1)
             return None
 

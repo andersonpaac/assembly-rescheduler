@@ -1,0 +1,2138 @@
+2015-04-30 06:55:54,116'INFO:Set logger---
+2015-04-30 06:55:54,120'INFO:building_blocke : consolidated
+2015-04-30 06:55:54,120'INFO:build_dep:alp=0
+2015-04-30 06:55:54,120'INFO:building_blocks:getblock:got  0 as block_num
+2015-04-30 06:55:54,120'INFO:binding_blocks:getblock: Returned data request for 0
+2015-04-30 06:55:54,120'INFO:build_dep:Returned:    LEA R0, DataSegment
+
+2015-04-30 06:55:54,120'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,120'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,120'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,120'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,120'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,120'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,120'INFO:build_dep:Returned:    BRnzp skip
+
+2015-04-30 06:55:54,120'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,120'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,120'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,121'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,121'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,121'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,121'INFO:analyzing block 0
+2015-04-30 06:55:54,121'INFO:build_dep:alp=1
+2015-04-30 06:55:54,121'INFO:building_blocks:getblock:got  1 as block_num
+2015-04-30 06:55:54,121'INFO:binding_blocks:getblock: Returned data request for 1
+2015-04-30 06:55:54,123'INFO:build_dep:Returned:    LDR R1, R0, ZERO
+
+2015-04-30 06:55:54,123'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,123'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,123'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,123'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,123'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,123'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,123'INFO:build_dep:Returned:    LDR R2, R0, ONETWELVE
+
+2015-04-30 06:55:54,123'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,123'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,123'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,123'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    LDR R7, R0, ENT
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    ADD R1, R2, R7
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    ADD R3, R1, -4
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,124'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    ADD R1, R1, R3
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    ADD R1, R1, R1
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    STR R1, R0, RES1
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,125'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    LDR R1, R0, NINER
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    LDR R2, R0, GECKO
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    AND R6, R1, R2
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,126'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    AND R5, R6, 10
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    STR R5, R0, RES2
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    LDR R7, R0, NOT6
+
+2015-04-30 06:55:54,127'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,128'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,128'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,128'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,128'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,128'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,128'INFO:build_dep:Returned:    NOT R7, R7
+
+2015-04-30 06:55:54,128'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,128'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,128'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,128'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,128'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,128'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,128'INFO:build_dep:Returned:    STR R7, R0, RES3
+
+2015-04-30 06:55:54,128'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,129'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,129'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,129'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,129'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,129'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,129'INFO:build_dep:Returned:    LDR R1, R0, PAT1
+
+2015-04-30 06:55:54,129'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,129'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,129'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,129'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,129'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,129'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,129'INFO:build_dep:Returned:    LSHF R2, R1, 4
+
+2015-04-30 06:55:54,129'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    RSHFL R3, R1, 2
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    LSHF R2, R2, 1
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,130'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    RSHFL R3, R3, 1
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    ADD R2, R2, R3
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    ADD R2, R2, 1
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,131'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    RSHFA R4, R1, 3
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    LDR R1, R0, PAT2
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,132'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,133'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,133'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,133'INFO:build_dep:Returned:    RSHFA R5, R1, 6
+
+2015-04-30 06:55:54,133'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,133'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,133'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,133'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,133'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,133'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,133'INFO:build_dep:Returned:    STR R2, R0, RES4
+
+2015-04-30 06:55:54,133'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,133'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,133'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,133'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,134'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,134'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,134'INFO:build_dep:Returned:    STR R4, R0, RES5
+
+2015-04-30 06:55:54,134'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,134'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,134'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,134'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,134'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,134'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,134'INFO:build_dep:Returned:    STR R5, R0, RES6
+
+2015-04-30 06:55:54,134'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,134'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,134'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,134'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,134'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,135'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,135'INFO:build_dep:Returned:    LEA R1, RES7
+
+2015-04-30 06:55:54,135'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,135'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,135'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,135'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,135'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,135'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,135'INFO:build_dep:Returned:    STR R1, R0, RES8
+
+2015-04-30 06:55:54,135'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,135'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,135'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,135'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,135'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,135'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    ADD R5, R5, 13
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    STI R5, R0, RES8
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    LDR R1, R0, TREE
+
+2015-04-30 06:55:54,136'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,137'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,137'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,137'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,137'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,137'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,137'INFO:build_dep:Returned:    LDR R2, R0, THREE
+
+2015-04-30 06:55:54,137'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,137'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,137'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,137'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,137'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,137'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,137'INFO:build_dep:Returned:    AND R3, R3, 0
+
+2015-04-30 06:55:54,137'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,137'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,138'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,138'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,138'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,138'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,138'INFO:analyzing block 1
+2015-04-30 06:55:54,138'INFO:build_dep:alp=2
+2015-04-30 06:55:54,138'INFO:building_blocks:getblock:got  2 as block_num
+2015-04-30 06:55:54,138'INFO:binding_blocks:getblock: Returned data request for 2
+2015-04-30 06:55:54,138'INFO:build_dep:Returned:    ADD R2, R2, 5
+
+2015-04-30 06:55:54,138'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,138'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    ADD R1, R1, -1
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    BRp loop1
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,139'INFO:analyzing block 2
+2015-04-30 06:55:54,140'INFO:build_dep:alp=3
+2015-04-30 06:55:54,140'INFO:building_blocks:getblock:got  3 as block_num
+2015-04-30 06:55:54,140'INFO:binding_blocks:getblock: Returned data request for 3
+2015-04-30 06:55:54,140'INFO:build_dep:Returned:    ADD R1, R1, 7
+
+2015-04-30 06:55:54,140'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,140'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,140'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,140'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,140'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,140'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,140'INFO:build_dep:Returned:    ADD R2, R2, -6
+
+2015-04-30 06:55:54,140'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    BRp loop2
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    BRz loop1
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,141'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,142'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,142'INFO:build_dep:Returned:    BRn miami
+
+2015-04-30 06:55:54,142'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,142'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,142'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,142'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,142'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,142'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,142'INFO:build_dep:Returned:    LDR R2, R0, five
+
+2015-04-30 06:55:54,142'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,142'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,142'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,142'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,142'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,142'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,142'INFO:analyzing block 3
+2015-04-30 06:55:54,142'INFO:build_dep:alp=4
+2015-04-30 06:55:54,143'INFO:building_blocks:getblock:got  4 as block_num
+2015-04-30 06:55:54,143'INFO:binding_blocks:getblock: Returned data request for 4
+2015-04-30 06:55:54,143'INFO:build_dep:Returned:    ADD R2, R2, R1
+
+2015-04-30 06:55:54,143'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,143'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,143'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,143'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,143'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,143'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,143'INFO:build_dep:Returned:    STR R2, R0, RES8
+
+2015-04-30 06:55:54,143'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    LDR R6, R0, ZERO
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    JSR dallas
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,144'INFO:build_dep:Returned:    STR R6, R0, RES9
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    AND R5, R5, 13
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    LEA R3, portland
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,145'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,146'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,146'INFO:build_dep:Returned:    JMP R3
+
+2015-04-30 06:55:54,146'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,146'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,146'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,146'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,146'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,146'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,146'INFO:build_dep:Returned:    LDR R5, R0, BADBAD
+
+2015-04-30 06:55:54,146'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,146'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,146'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,146'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,146'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,146'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,146'INFO:analyzing block 4
+2015-04-30 06:55:54,146'INFO:build_dep:alp=5
+2015-04-30 06:55:54,146'INFO:building_blocks:getblock:got  5 as block_num
+2015-04-30 06:55:54,146'INFO:binding_blocks:getblock: Returned data request for 5
+2015-04-30 06:55:54,147'INFO:build_dep:Returned:    STR R5, R0, RES10
+
+2015-04-30 06:55:54,147'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,147'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    LDR R5, R0, BADBAD
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    TRAP Bear
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    STR R5, R0, RES11
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,148'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    AND R1, R1, 0
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    ADD R1, R1, 8
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    ADD R1, R1, 9
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,149'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    LDB R2, R0, PAT3
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    LDB R3, R1, PAT3
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    ADD R4, R3, R2
+
+2015-04-30 06:55:54,150'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    STR R4, R0, RES12
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    ADD R2, R2, 11
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,151'INFO:build_dep:Returned:    ADD R3, R3, -2
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    LEA R1, DataSegment2
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    BRnzp skip2
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,152'INFO:analyzing block 5
+2015-04-30 06:55:54,153'INFO:build_dep:alp=6
+2015-04-30 06:55:54,153'INFO:building_blocks:getblock:got  6 as block_num
+2015-04-30 06:55:54,153'INFO:binding_blocks:getblock: Returned data request for 6
+2015-04-30 06:55:54,153'INFO:build_dep:Returned:    LDR R5, R0, PAT3
+
+2015-04-30 06:55:54,153'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,153'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,153'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,153'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,153'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,153'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,153'INFO:build_dep:Returned:    NOT R5, R5
+
+2015-04-30 06:55:54,153'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,153'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,153'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,153'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,153'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,153'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,154'INFO:build_dep:Returned:    RET
+
+2015-04-30 06:55:54,154'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,154'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,154'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,154'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,154'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,154'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,154'INFO:analyzing block 6
+2015-04-30 06:55:54,154'INFO:build_dep:alp=7
+2015-04-30 06:55:54,154'INFO:building_blocks:getblock:got  7 as block_num
+2015-04-30 06:55:54,154'INFO:binding_blocks:getblock: Returned data request for 7
+2015-04-30 06:55:54,154'INFO:build_dep:Returned:    LDR R3, R0, GOOD
+
+2015-04-30 06:55:54,154'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,154'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,154'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,154'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,154'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,155'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,155'INFO:build_dep:Returned:    ADD R1, R1, R3
+
+2015-04-30 06:55:54,155'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,155'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,155'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,155'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,155'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,155'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,155'INFO:build_dep:Returned:    RET
+
+2015-04-30 06:55:54,155'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,155'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,155'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,155'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,155'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,155'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,155'INFO:analyzing block 7
+2015-04-30 06:55:54,155'INFO:build_dep:alp=8
+2015-04-30 06:55:54,155'INFO:building_blocks:getblock:got  8 as block_num
+2015-04-30 06:55:54,155'INFO:binding_blocks:getblock: Returned data request for 8
+2015-04-30 06:55:54,156'INFO:build_dep:Returned:    STB R2, R1, 3
+
+2015-04-30 06:55:54,156'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,156'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,156'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,156'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,156'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,156'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,156'INFO:build_dep:Returned:    STB R3, R1, 2
+
+2015-04-30 06:55:54,156'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,156'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,156'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,156'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,156'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,156'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,156'INFO:build_dep:Returned:    LDR R4, R1, RES17
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    STR R4, R0, RES13
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    LEA R3, TS
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,157'INFO:build_dep:Returned:    STR R3, R0, RES15
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    LDI R3, R0, RES15
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    STR R3, R0, RES14
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,158'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,159'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,159'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,159'INFO:analyzing block 8
+2015-04-30 06:55:54,159'INFO:build_dep:alp=9
+2015-04-30 06:55:54,159'INFO:building_blocks:getblock:got  9 as block_num
+2015-04-30 06:55:54,159'INFO:binding_blocks:getblock: Returned data request for 9
+2015-04-30 06:55:54,159'INFO:build_dep:Returned:    LEA R4, DataSegment4
+
+2015-04-30 06:55:54,159'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,159'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,159'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,159'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,159'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,159'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,159'INFO:build_dep:Returned:    LDR R2, R4, Indy
+
+2015-04-30 06:55:54,159'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,159'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    ADD R2, R2, 3
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    AND R1, R1, 0
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,160'INFO:analyzing block 9
+2015-04-30 06:55:54,160'INFO:build_dep:alp=10
+2015-04-30 06:55:54,160'INFO:building_blocks:getblock:got  10 as block_num
+2015-04-30 06:55:54,161'INFO:binding_blocks:getblock: Returned data request for 10
+2015-04-30 06:55:54,161'INFO:build_dep:Returned:    ADD R1, R1, 12
+
+2015-04-30 06:55:54,161'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,161'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,161'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,161'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,161'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,161'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,161'INFO:build_dep:Returned:    STR R1, R0, RES16
+
+2015-04-30 06:55:54,161'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,161'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,161'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    ADD R1, R0, 1
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    LDR R3, R1, PAT3
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    LEA R6, DataSegment2
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,162'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    STR R3, R6, RES17
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    LDR R1, R0, PAT3
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    BRn Nati
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,163'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,164'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,164'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,164'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,164'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,164'INFO:build_dep:Returned:    TRAP Owl
+
+2015-04-30 06:55:54,164'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,164'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,164'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,164'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,164'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,164'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,164'INFO:analyzing block 10
+2015-04-30 06:55:54,164'INFO:build_dep:alp=11
+2015-04-30 06:55:54,164'INFO:building_blocks:getblock:got  11 as block_num
+2015-04-30 06:55:54,164'INFO:binding_blocks:getblock: Returned data request for 11
+2015-04-30 06:55:54,165'INFO:build_dep:Returned:    LDR R1, R0, BADBAD
+
+2015-04-30 06:55:54,165'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,165'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,165'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,165'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,165'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,165'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,166'INFO:build_dep:Returned:    LEA R2, OverHere
+
+2015-04-30 06:55:54,166'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,166'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,166'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,166'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,166'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,166'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,166'INFO:build_dep:Returned:    JSRR R2
+
+2015-04-30 06:55:54,166'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,166'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,166'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,166'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,166'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,166'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,166'INFO:build_dep:Returned:    STR R1, R6, RES18
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    ADD R1, R0, 2
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    AND R6, R6, 0
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,167'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,168'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,168'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,168'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,168'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,168'INFO:build_dep:Returned:    BRz dulles
+
+2015-04-30 06:55:54,168'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,168'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,168'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,168'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,168'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,168'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,168'INFO:build_dep:Returned:    ADD R1, R1, R1
+
+2015-04-30 06:55:54,168'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,168'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,168'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,169'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,169'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,169'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,169'INFO:analyzing block 11
+2015-04-30 06:55:54,169'INFO:build_dep:alp=12
+2015-04-30 06:55:54,169'INFO:building_blocks:getblock:got  12 as block_num
+2015-04-30 06:55:54,169'INFO:binding_blocks:getblock: Returned data request for 12
+2015-04-30 06:55:54,169'INFO:build_dep:Returned:    LEA R6, DataSegment2
+
+2015-04-30 06:55:54,169'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,169'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,169'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,169'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,169'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,169'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,169'INFO:build_dep:Returned:    STR R1, R6, RES19
+
+2015-04-30 06:55:54,169'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,170'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,170'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,170'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,170'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,170'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,170'INFO:analyzing block 12
+2015-04-30 06:55:54,170'INFO:build_dep:alp=13
+2015-04-30 06:55:54,170'INFO:building_blocks:getblock:got  13 as block_num
+2015-04-30 06:55:54,170'INFO:binding_blocks:getblock: Returned data request for 13
+2015-04-30 06:55:54,172'INFO:build_dep:Returned:    LEA R5, DataSegment3
+
+2015-04-30 06:55:54,172'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,172'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,172'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,172'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,172'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,172'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,172'INFO:build_dep:Returned:    LDR R6, R5, DSP
+
+2015-04-30 06:55:54,172'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,172'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,172'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,172'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,172'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,172'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,172'INFO:build_dep:Returned:    LDR R0, R6, RES1
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    LDR R1, R6, RES2
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    JSR atlanta
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    LDR R1, R6, RES3
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,173'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    JSR atlanta
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    STR R0, R5, CS1
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    LDR R0, R6, RES4
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    LDR R1, R6, RES5
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    JSR atlanta
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,174'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    LDR R1, R6, RES6
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    JSR atlanta
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    STR R0, R5, CS2
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    LDR R0, R6, RES7
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    LDR R1, R6, RES8
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,175'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    JSR atlanta
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    STR R0, R5, CS3
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    LDR R0, R6, RES9
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    LDR R1, R6, RES10
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    JSR atlanta
+
+2015-04-30 06:55:54,176'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    STR R0, R5, CS4
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    LDR R0, R6, RES11
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    LDR R1, R6, RES12
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    JSR atlanta
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,177'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    STR R0, R5, CS5
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    LDR R0, R6, RES13
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    LDR R1, R6, RES14
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    JSR atlanta
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    STR R0, R5, CS6
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    LDR R0, R6, RES15
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    LDR R1, R6, RES16
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,178'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    JSR atlanta
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    STR R0, R5, CS7
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    LDR R6, R5, DS2P
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    LDR R0, R6, RES17
+
+2015-04-30 06:55:54,179'INFO:build_dep:Returned:    LDR R1, R6, RES18
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    JSR atlanta
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    LDR R1, R6, RES19
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,180'INFO:build_dep:Returned:    JSR atlanta
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    STR R0, R5, CS8
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    LEA R7, DataSegment3
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    LDR R0, R7, CS1
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    LDR R1, R7, CS2
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    LDR R2, R7, CS3
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    LDR R3, R7, CS4
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    LDR R4, R7, CS5
+
+2015-04-30 06:55:54,181'INFO:build_dep:Returned:    LDR R5, R7, CS6
+
+2015-04-30 06:55:54,182'INFO:build_dep:Returned:    LDR R6, R7, CS7
+
+2015-04-30 06:55:54,182'INFO:build_dep:Returned:    LDR R7, R7, CS8
+
+2015-04-30 06:55:54,182'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,182'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,182'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,182'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,182'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,182'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,182'INFO:analyzing block 13
+2015-04-30 06:55:54,182'INFO:build_dep:alp=14
+2015-04-30 06:55:54,182'INFO:building_blocks:getblock:got  14 as block_num
+2015-04-30 06:55:54,182'INFO:binding_blocks:getblock: Returned data request for 14
+2015-04-30 06:55:54,182'INFO:build_dep:Returned:    BRnzp nowhere
+
+2015-04-30 06:55:54,182'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,182'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,182'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,183'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,183'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,183'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,183'INFO:analyzing block 14
+2015-04-30 06:55:54,183'INFO:build_dep:alp=15
+2015-04-30 06:55:54,183'INFO:building_blocks:getblock:got  15 as block_num
+2015-04-30 06:55:54,183'INFO:binding_blocks:getblock: Returned data request for 15
+2015-04-30 06:55:54,183'INFO:build_dep:Returned:    NOT R6, R7
+
+2015-04-30 06:55:54,183'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,183'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,183'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,183'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,183'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,183'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,183'INFO:build_dep:Returned:    RET
+
+2015-04-30 06:55:54,183'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,183'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,183'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,184'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,184'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,184'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,184'INFO:analyzing block 15
+2015-04-30 06:55:54,184'INFO:build_dep:alp=16
+2015-04-30 06:55:54,184'INFO:building_blocks:getblock:got  16 as block_num
+2015-04-30 06:55:54,184'INFO:binding_blocks:getblock: Returned data request for 16
+2015-04-30 06:55:54,184'INFO:build_dep:Returned:    AND R2, R0, R1
+
+2015-04-30 06:55:54,184'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,184'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,184'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,184'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,184'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,184'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOT R2, R2
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOT R0, R0
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOT R1, R1
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    AND R0, R0, R1
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOT R0, R0
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,185'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    AND R0, R0, R2
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    RET
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:55:54,186'INFO:analyzing block 16
+2015-04-30 06:55:54,186'DEBUG:Total Possible Hazards0
+2015-04-30 06:55:54,187'CRITICAL:binding_blocks:writetofile:WROTE FILE to tryme.asm

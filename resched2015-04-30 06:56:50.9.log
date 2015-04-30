@@ -1,0 +1,148 @@
+2015-04-30 06:56:50,962'INFO:Set logger---
+2015-04-30 06:56:50,962'INFO:building_blocke : consolidated
+2015-04-30 06:56:50,962'INFO:build_dep:alp=0
+2015-04-30 06:56:50,962'INFO:building_blocks:getblock:got  0 as block_num
+2015-04-30 06:56:50,962'INFO:binding_blocks:getblock: Returned data request for 0
+2015-04-30 06:56:50,962'INFO:build_dep:Returned:    BRnzp ldr_str_test
+
+2015-04-30 06:56:50,962'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,963'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,963'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,963'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,963'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,963'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,963'INFO:analyzing block 0
+2015-04-30 06:56:50,963'INFO:build_dep:alp=1
+2015-04-30 06:56:50,963'INFO:building_blocks:getblock:got  1 as block_num
+2015-04-30 06:56:50,963'INFO:binding_blocks:getblock: Returned data request for 1
+2015-04-30 06:56:50,963'INFO:build_dep:Returned:    LDR R0, R0, DSP
+
+2015-04-30 06:56:50,963'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    LDR R1, R0, W
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    LDR R3, R0, Y
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    LDR R2, R0, X
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    LDR R4, R0, Z
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    STR R1, R0, Z
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    STR R2, R0, Y
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    STR R3, R0, X
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    STR R4, R0, W
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    LDR R1, R0, W
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    LDR R2, R0, X
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    LDR R3, R0, Y
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    LDR R4, R0, Z
+
+2015-04-30 06:56:50,964'INFO:build_dep:Returned:    BRnzp fetch_stall_test
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,965'INFO:analyzing block 1
+2015-04-30 06:56:50,965'INFO:build_dep:alp=2
+2015-04-30 06:56:50,966'INFO:building_blocks:getblock:got  2 as block_num
+2015-04-30 06:56:50,966'INFO:binding_blocks:getblock: Returned data request for 2
+2015-04-30 06:56:50,966'INFO:build_dep:Returned:    ADD R5, R1, R2
+
+2015-04-30 06:56:50,966'INFO:build_dep:Returned:    ADD R6, R3, R4
+
+2015-04-30 06:56:50,966'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,966'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,966'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,966'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,966'INFO:build_dep:Returned:    STR R5, R0, VICTIM
+
+2015-04-30 06:56:50,966'INFO:build_dep:Returned:    ADD R7, R5, R6
+
+2015-04-30 06:56:50,966'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,966'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,966'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,966'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,966'INFO:build_dep:Returned:    STR R7, R0, TOTAL
+
+2015-04-30 06:56:50,966'INFO:build_dep:Returned:    LDR R1, R0, TOTAL
+
+2015-04-30 06:56:50,967'INFO:analyzing block 2
+2015-04-30 06:56:50,967'INFO:	No optimizations possible in block 2
+2015-04-30 06:56:50,967'INFO:build_dep:alp=3
+2015-04-30 06:56:50,967'INFO:building_blocks:getblock:got  3 as block_num
+2015-04-30 06:56:50,967'INFO:binding_blocks:getblock: Returned data request for 3
+2015-04-30 06:56:50,967'INFO:build_dep:Returned:    BRnzp inf
+
+2015-04-30 06:56:50,967'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,967'INFO:build_dep:Returned:    NOP
+
+2015-04-30 06:56:50,967'INFO:analyzing block 3
+2015-04-30 06:56:50,967'INFO:build_dep:alp=4
+2015-04-30 06:56:50,967'INFO:building_blocks:getblock:got  4 as block_num
+2015-04-30 06:56:50,967'INFO:binding_blocks:getblock: Returned data request for 4
