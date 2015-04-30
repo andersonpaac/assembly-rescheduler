@@ -1,0 +1,276 @@
+2015-04-30 05:45:40,813'INFO:Set logger---
+2015-04-30 05:45:40,836'INFO:building_blocke : consolidated
+2015-04-30 05:45:40,843'INFO:build_dep:alp=0
+2015-04-30 05:45:40,843'INFO:building_blocks:getblock:got  0 as block_num
+2015-04-30 05:45:40,844'INFO:analyzing block 0
+2015-04-30 05:45:40,844'INFO:	No optimizations possible in block 0
+2015-04-30 05:45:40,844'INFO:build_dep:alp=1
+2015-04-30 05:45:40,844'INFO:building_blocks:getblock:got  1 as block_num
+2015-04-30 05:45:40,845'INFO:analyzing block 1
+2015-04-30 05:45:40,845'INFO:build_dep:alp=2
+2015-04-30 05:45:40,845'INFO:building_blocks:getblock:got  2 as block_num
+2015-04-30 05:45:40,846'INFO:analyzing block 2
+2015-04-30 05:45:40,846'INFO:build_dep:alp=3
+2015-04-30 05:45:40,846'INFO:building_blocks:getblock:got  3 as block_num
+2015-04-30 05:45:40,846'INFO:analyzing block 3
+2015-04-30 05:45:40,846'INFO:build_dep:alp=4
+2015-04-30 05:45:40,846'INFO:building_blocks:getblock:got  4 as block_num
+2015-04-30 05:45:40,846'INFO:analyzing block 4
+2015-04-30 05:45:40,846'INFO:build_dep:alp=5
+2015-04-30 05:45:40,846'INFO:building_blocks:getblock:got  5 as block_num
+2015-04-30 05:45:40,846'INFO:analyzing block 5
+2015-04-30 05:45:40,846'INFO:build_dep:alp=6
+2015-04-30 05:45:40,846'INFO:building_blocks:getblock:got  6 as block_num
+2015-04-30 05:45:40,846'INFO:analyzing block 6
+2015-04-30 05:45:40,847'INFO:build_dep:alp=7
+2015-04-30 05:45:40,847'INFO:building_blocks:getblock:got  7 as block_num
+2015-04-30 05:45:40,847'INFO:analyzing block 7
+2015-04-30 05:45:40,847'INFO:build_dep:alp=8
+2015-04-30 05:45:40,847'INFO:building_blocks:getblock:got  8 as block_num
+2015-04-30 05:45:40,847'INFO:analyzing block 8
+2015-04-30 05:45:40,847'INFO:build_dep:alp=9
+2015-04-30 05:45:40,847'INFO:building_blocks:getblock:got  9 as block_num
+2015-04-30 05:45:40,847'INFO:analyzing block 9
+2015-04-30 05:45:40,848'INFO:graphit:Entered , received params[[26, 75]]
+2015-04-30 05:45:40,848'INFO:graphit:Corrected size
+2015-04-30 05:45:40,848'INFO:graphit:    LDR R3, R0, nosedive
+
+    ADD R4, R3, 11
+
+2015-04-30 05:45:40,848'INFO:graphit:     LDR R3, R0, tailspin
+
+2015-04-30 05:45:40,848'INFO:graphit:     rshfl R4, R4, 1
+
+2015-04-30 05:45:40,848'INFO:graphit:     ADD R5, R3, 7
+
+2015-04-30 05:45:40,848'INFO:graphit:     LDI R1, R0, compass
+
+2015-04-30 05:45:40,848'DEBUG:graphit:FOUND CANDIDATE     LDI R1, R0, compass
+
+2015-04-30 05:45:40,848'INFO:binding_blocks:overwriteblock: Overwrote block9
+2015-04-30 05:45:40,848'INFO:build_dep:alp=10
+2015-04-30 05:45:40,848'INFO:building_blocks:getblock:got  10 as block_num
+2015-04-30 05:45:40,849'INFO:analyzing block 10
+2015-04-30 05:45:40,849'INFO:build_dep:alp=11
+2015-04-30 05:45:40,849'INFO:building_blocks:getblock:got  11 as block_num
+2015-04-30 05:45:40,849'INFO:analyzing block 11
+2015-04-30 05:45:40,849'INFO:build_dep:alp=12
+2015-04-30 05:45:40,849'INFO:building_blocks:getblock:got  12 as block_num
+2015-04-30 05:45:40,849'INFO:analyzing block 12
+2015-04-30 05:45:40,849'INFO:build_dep:alp=13
+2015-04-30 05:45:40,849'INFO:building_blocks:getblock:got  13 as block_num
+2015-04-30 05:45:40,849'INFO:analyzing block 13
+2015-04-30 05:45:40,849'INFO:build_dep:alp=14
+2015-04-30 05:45:40,849'INFO:building_blocks:getblock:got  14 as block_num
+2015-04-30 05:45:40,850'INFO:analyzing block 14
+2015-04-30 05:45:40,850'INFO:build_dep:alp=15
+2015-04-30 05:45:40,850'INFO:building_blocks:getblock:got  15 as block_num
+2015-04-30 05:45:40,850'INFO:analyzing block 15
+2015-04-30 05:45:40,850'INFO:build_dep:alp=16
+2015-04-30 05:45:40,850'INFO:building_blocks:getblock:got  16 as block_num
+2015-04-30 05:45:40,850'INFO:analyzing block 16
+2015-04-30 05:45:40,850'INFO:build_dep:alp=17
+2015-04-30 05:45:40,850'INFO:building_blocks:getblock:got  17 as block_num
+2015-04-30 05:45:40,850'INFO:analyzing block 17
+2015-04-30 05:45:40,850'INFO:build_dep:alp=18
+2015-04-30 05:45:40,851'INFO:building_blocks:getblock:got  18 as block_num
+2015-04-30 05:45:40,851'INFO:analyzing block 18
+2015-04-30 05:45:40,851'INFO:build_dep:alp=19
+2015-04-30 05:45:40,851'INFO:building_blocks:getblock:got  19 as block_num
+2015-04-30 05:45:40,851'INFO:analyzing block 19
+2015-04-30 05:45:40,851'INFO:build_dep:alp=20
+2015-04-30 05:45:40,851'INFO:building_blocks:getblock:got  20 as block_num
+2015-04-30 05:45:40,851'INFO:analyzing block 20
+2015-04-30 05:45:40,851'INFO:	No optimizations possible in block 20
+2015-04-30 05:45:40,852'INFO:build_dep:alp=21
+2015-04-30 05:45:40,852'INFO:building_blocks:getblock:got  21 as block_num
+2015-04-30 05:45:40,852'INFO:analyzing block 21
+2015-04-30 05:45:40,852'INFO:graphit:Entered , received params[[6, 55]]
+2015-04-30 05:45:40,852'INFO:graphit:Corrected size
+2015-04-30 05:45:40,852'INFO:graphit:    LDR R2, R0, TWOFIVESIX
+
+    ADD R4, R2, R4
+
+2015-04-30 05:45:40,852'INFO:graphit:     LDR R3, R0, Counter2
+
+2015-04-30 05:45:40,852'DEBUG:graphit:FOUND CANDIDATE     LDR R3, R0, Counter2
+
+2015-04-30 05:45:40,852'INFO:binding_blocks:overwriteblock: Overwrote block21
+2015-04-30 05:45:40,852'INFO:build_dep:alp=22
+2015-04-30 05:45:40,852'INFO:building_blocks:getblock:got  22 as block_num
+2015-04-30 05:45:40,852'INFO:analyzing block 22
+2015-04-30 05:45:40,853'INFO:graphit:Entered , received params[[8, 57]]
+2015-04-30 05:45:40,853'INFO:graphit:Corrected size
+2015-04-30 05:45:40,853'INFO:graphit:    LDR R2, R0, TWOFIVESIX
+
+    ADD R4, R2, R4
+
+2015-04-30 05:45:40,853'INFO:graphit:     ADD R4, R2, R4
+
+2015-04-30 05:45:40,853'INFO:graphit:     LDR R3, R0, Counter2
+
+2015-04-30 05:45:40,853'DEBUG:graphit:FOUND CANDIDATE     LDR R3, R0, Counter2
+
+2015-04-30 05:45:40,853'INFO:binding_blocks:overwriteblock: Overwrote block22
+2015-04-30 05:45:40,853'INFO:build_dep:alp=23
+2015-04-30 05:45:40,853'INFO:building_blocks:getblock:got  23 as block_num
+2015-04-30 05:45:40,854'INFO:analyzing block 23
+2015-04-30 05:45:40,854'INFO:graphit:Entered , received params[[8, 57]]
+2015-04-30 05:45:40,854'INFO:graphit:Corrected size
+2015-04-30 05:45:40,854'INFO:graphit:    LDR R4, R0, TWOFIVESIX
+
+    ADD R4, R3, R4
+
+2015-04-30 05:45:40,854'INFO:graphit:     AND R6, R6, 0
+
+2015-04-30 05:45:40,854'DEBUG:graphit:FOUND CANDIDATE     AND R6, R6, 0
+
+2015-04-30 05:45:40,854'INFO:binding_blocks:overwriteblock: Overwrote block23
+2015-04-30 05:45:40,854'INFO:build_dep:alp=24
+2015-04-30 05:45:40,854'INFO:building_blocks:getblock:got  24 as block_num
+2015-04-30 05:45:40,855'INFO:analyzing block 24
+2015-04-30 05:45:40,855'INFO:graphit:Entered , received params[[12, 61]]
+2015-04-30 05:45:40,855'INFO:graphit:Corrected size
+2015-04-30 05:45:40,855'INFO:graphit:    LDR R7, R5, 0
+
+    ADD R6, R6, R7
+
+2015-04-30 05:45:40,855'INFO:graphit:     STR R6, R5, 0
+
+2015-04-30 05:45:40,855'INFO:graphit:     JSR CALNEXT2
+
+2015-04-30 05:45:40,855'DEBUG:gtaphit:AVOIDED     JSR CALNEXT2
+
+2015-04-30 05:45:40,855'INFO:binding_blocks:overwriteblock: Overwrote block24
+2015-04-30 05:45:40,855'INFO:build_dep:alp=25
+2015-04-30 05:45:40,855'INFO:building_blocks:getblock:got  25 as block_num
+2015-04-30 05:45:40,856'INFO:analyzing block 25
+2015-04-30 05:45:40,856'INFO:graphit:Entered , received params[[6, 55]]
+2015-04-30 05:45:40,856'INFO:graphit:Corrected size
+2015-04-30 05:45:40,856'INFO:graphit:    LDR R4, R0, TWOFIVESIX
+
+    ADD R4, R4, R4
+
+2015-04-30 05:45:40,856'INFO:graphit:     ADD R4, R3, R4
+
+2015-04-30 05:45:40,856'INFO:graphit:     AND R6, R6, 0
+
+2015-04-30 05:45:40,856'DEBUG:graphit:FOUND CANDIDATE     AND R6, R6, 0
+
+2015-04-30 05:45:40,865'INFO:binding_blocks:overwriteblock: Overwrote block25
+2015-04-30 05:45:40,865'INFO:build_dep:alp=26
+2015-04-30 05:45:40,865'INFO:building_blocks:getblock:got  26 as block_num
+2015-04-30 05:45:40,865'INFO:analyzing block 26
+2015-04-30 05:45:40,865'INFO:graphit:Entered , received params[[12, 61]]
+2015-04-30 05:45:40,865'INFO:graphit:Corrected size
+2015-04-30 05:45:40,865'INFO:graphit:    LDR R7, R5, 0
+
+    ADD R6, R6, R7
+
+2015-04-30 05:45:40,865'INFO:graphit:     STR R6, R5, 0
+
+2015-04-30 05:45:40,865'INFO:graphit:     JSR CALNEXT3
+
+2015-04-30 05:45:40,865'DEBUG:gtaphit:AVOIDED     JSR CALNEXT3
+
+2015-04-30 05:45:40,865'INFO:binding_blocks:overwriteblock: Overwrote block26
+2015-04-30 05:45:40,866'INFO:build_dep:alp=27
+2015-04-30 05:45:40,866'INFO:building_blocks:getblock:got  27 as block_num
+2015-04-30 05:45:40,866'INFO:analyzing block 27
+2015-04-30 05:45:40,866'INFO:build_dep:alp=28
+2015-04-30 05:45:40,866'INFO:building_blocks:getblock:got  28 as block_num
+2015-04-30 05:45:40,866'INFO:analyzing block 28
+2015-04-30 05:45:40,866'INFO:build_dep:alp=29
+2015-04-30 05:45:40,866'INFO:building_blocks:getblock:got  29 as block_num
+2015-04-30 05:45:40,866'INFO:analyzing block 29
+2015-04-30 05:45:40,866'INFO:build_dep:alp=30
+2015-04-30 05:45:40,866'INFO:building_blocks:getblock:got  30 as block_num
+2015-04-30 05:45:40,866'INFO:analyzing block 30
+2015-04-30 05:45:40,866'INFO:build_dep:alp=31
+2015-04-30 05:45:40,866'INFO:building_blocks:getblock:got  31 as block_num
+2015-04-30 05:45:40,867'INFO:analyzing block 31
+2015-04-30 05:45:40,867'INFO:build_dep:alp=32
+2015-04-30 05:45:40,867'INFO:building_blocks:getblock:got  32 as block_num
+2015-04-30 05:45:40,867'INFO:analyzing block 32
+2015-04-30 05:45:40,867'INFO:build_dep:alp=33
+2015-04-30 05:45:40,867'INFO:building_blocks:getblock:got  33 as block_num
+2015-04-30 05:45:40,867'INFO:analyzing block 33
+2015-04-30 05:45:40,867'INFO:build_dep:alp=34
+2015-04-30 05:45:40,867'INFO:building_blocks:getblock:got  34 as block_num
+2015-04-30 05:45:40,867'INFO:analyzing block 34
+2015-04-30 05:45:40,867'INFO:build_dep:alp=35
+2015-04-30 05:45:40,867'INFO:building_blocks:getblock:got  35 as block_num
+2015-04-30 05:45:40,867'INFO:analyzing block 35
+2015-04-30 05:45:40,867'INFO:	No optimizations possible in block 35
+2015-04-30 05:45:40,867'INFO:graphit:Entered , received params[[1, 50]]
+2015-04-30 05:45:40,867'INFO:graphit:Corrected size
+2015-04-30 05:45:40,868'INFO:graphit:    LDR R4, R0, TWOFIVESIX
+
+    ADD R4, R4, R4
+
+2015-04-30 05:45:40,868'INFO:graphit:     ADD R1, R4, R1
+
+2015-04-30 05:45:40,868'INFO:graphit:     AND R7, R7, 0
+
+2015-04-30 05:45:40,868'DEBUG:graphit:FOUND CANDIDATE     AND R7, R7, 0
+
+2015-04-30 05:45:40,868'INFO:binding_blocks:overwriteblock: Overwrote block35
+2015-04-30 05:45:40,868'INFO:build_dep:alp=36
+2015-04-30 05:45:40,868'INFO:building_blocks:getblock:got  36 as block_num
+2015-04-30 05:45:40,868'INFO:analyzing block 36
+2015-04-30 05:45:40,868'INFO:	No optimizations possible in block 36
+2015-04-30 05:45:40,868'INFO:graphit:Entered , received params[[0, 49]]
+2015-04-30 05:45:40,868'INFO:graphit:Corrected size
+2015-04-30 05:45:40,868'INFO:graphit:    LDR  R3, R1, 0
+
+    ADD R4, R3, R4
+
+2015-04-30 05:45:40,868'INFO:graphit:     ADD R1, R1, 2
+
+2015-04-30 05:45:40,868'DEBUG:graphit:FOUND CANDIDATE     ADD R1, R1, 2
+
+2015-04-30 05:45:40,868'INFO:binding_blocks:overwriteblock: Overwrote block36
+2015-04-30 05:45:40,868'INFO:build_dep:alp=37
+2015-04-30 05:45:40,868'INFO:building_blocks:getblock:got  37 as block_num
+2015-04-30 05:45:40,869'INFO:analyzing block 37
+2015-04-30 05:45:40,869'INFO:	No optimizations possible in block 37
+2015-04-30 05:45:40,869'INFO:graphit:Entered , received params[[0, 49]]
+2015-04-30 05:45:40,869'INFO:graphit:Corrected size
+2015-04-30 05:45:40,869'INFO:graphit:    LDR  R3, R1, 0
+
+    ADD R5, R3, R5
+
+2015-04-30 05:45:40,869'INFO:graphit:     ADD R1, R1, 2
+
+2015-04-30 05:45:40,869'DEBUG:graphit:FOUND CANDIDATE     ADD R1, R1, 2
+
+2015-04-30 05:45:40,869'INFO:binding_blocks:overwriteblock: Overwrote block37
+2015-04-30 05:45:40,869'INFO:build_dep:alp=38
+2015-04-30 05:45:40,869'INFO:building_blocks:getblock:got  38 as block_num
+2015-04-30 05:45:40,869'INFO:analyzing block 38
+2015-04-30 05:45:40,869'INFO:	No optimizations possible in block 38
+2015-04-30 05:45:40,869'INFO:graphit:Entered , received params[[0, 49]]
+2015-04-30 05:45:40,869'INFO:graphit:Corrected size
+2015-04-30 05:45:40,869'INFO:graphit:    LDR  R3, R1, 0
+
+    ADD R6, R3, R6
+
+2015-04-30 05:45:40,869'INFO:graphit:     ADD R1, R1, 2
+
+2015-04-30 05:45:40,869'DEBUG:graphit:FOUND CANDIDATE     ADD R1, R1, 2
+
+2015-04-30 05:45:40,891'INFO:binding_blocks:overwriteblock: Overwrote block38
+2015-04-30 05:45:40,891'INFO:build_dep:alp=39
+2015-04-30 05:45:40,891'INFO:building_blocks:getblock:got  39 as block_num
+2015-04-30 05:45:40,891'INFO:analyzing block 39
+2015-04-30 05:45:40,891'INFO:graphit:Entered , received params[[0, 49]]
+2015-04-30 05:45:40,891'INFO:graphit:Corrected size
+2015-04-30 05:45:40,891'INFO:graphit:    LDR  R3, R1, 0
+
+    ADD R7, R3, R7
+
+2015-04-30 05:45:40,891'INFO:graphit:     ADD R1, R1, 2
+
+2015-04-30 05:45:40,891'DEBUG:graphit:FOUND CANDIDATE     ADD R1, R1, 2
+
+2015-04-30 05:45:40,891'INFO:binding_blocks:overwriteblock: Overwrote block39

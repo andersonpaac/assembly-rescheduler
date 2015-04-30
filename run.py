@@ -36,7 +36,7 @@ def build_dep(bind):
     global instruction_granularity
     blocks = bind.blocks
     if len(blocks) == 0:
-        logging.CRITICAL("NO BLOCKS FOUND")
+        logging.CRITICAL("build_dep:NO BLOCKS FOUND")
         print "ENTER A VALID ASM"
         exit(-1)
 
@@ -44,7 +44,10 @@ def build_dep(bind):
         #Every block
         totalhazards = 0
         for alp in xrange(bind.countblocks()):
+            logging.info("build_dep:alp="+str(alp))
             care,insts = parseinst(bind.getblock(alp))
+            for i in insts:
+                logging.info("build_dep:Returned:"+i.rawtxt)
             logging.info("analyzing block "+str(alp))
             analyze = 0                                 #analyze is if blocks have a hazard.
             issues = []                                 #issues is an array of arrays. Each element in this array
@@ -75,8 +78,12 @@ def build_dep(bind):
 
             #Runs once per block
             if analyze == 1:
-                graphit(insts,issues)
-        print "Total Possible Hazards"+str(totalhazards)
+                lel = graphit(insts,issues)
+                bind.overwriteblock(rawoverwrite(lel,alp,bind.getformatterstat()),alp)
+
+
+        logging.debug("Total Possible Hazards"+str(totalhazards))
+        bind.writetofile("tryme.asm")
 
 #graphit builds a dependency graph for the issues in hand. After resolving it calls fixit a helper function to replace
 #the instructions.
@@ -88,15 +95,16 @@ def graphit(insts,issues):
         #Care + instruction_granularity exceeds the length
         if each[1] >= len(insts):
             each[1] = len(insts)-1
-            print "FIXED"
+            logging.info("graphit:Corrected size")
         print "graphit:"
         if (each[0]+2 > each[1]):
-            logging.info ("TOO SMALL TO FIX")
+            logging.info("graphit:TOO SMALL TO FIX")
 
         else:
             #Just for printing
             print insts[each[0]].rawtxt
             print insts[each[0]+1].rawtxt
+            logging.info("graphit:"+insts[each[0]].rawtxt+"\n"+insts[each[0]+1].rawtxt)
             indice = each[0]+2
             dontstop = 1
             prevdests = [insts[each[0]+1].dest,insts[each[0]].dest]
@@ -105,7 +113,9 @@ def graphit(insts,issues):
             while indice <= each[1] and dontstop == 1:
                 #Just for printing
                 print insts[indice].rawtxt
+                logging.info("graphit: "+insts[indice].rawtxt)
                 if insts[indice].branchmuch == 1:
+                    logging.debug( "gtaphit:AVOIDED "+insts[indice].rawtxt)
                     print "AVOIDED "+insts[indice].rawtxt
                     dontstop = 0
                     #logging.CRITICAL("GRAPHIT:AVOIDED EDGE CASE - LD , JMP or LD , BR")
@@ -124,13 +134,25 @@ def graphit(insts,issues):
                         prevdests.append(insts[indice].dest)
                     #Perfect candidate
                     else:
+                        logging.debug("graphit:FOUND CANDIDATE "+insts[indice].rawtxt)
                         print "FOUND CANDIDATE "+insts[indice].rawtxt
                         dontstop = 0
-
-
+                        tempinst = insts[indice]
+                        print "tempinst set to "+tempinst.rawtxt
+                        insts.insert(each[0]+1,tempinst)
+                        insts.pop(indice+1)
                 indice = indice + 1
 
+        return insts
 
+#given a block of instruction object , block number. It'll ensure binding_blocks get the right data
+def rawoverwrite(lel,alp,formatterhelp):
+    logging.info("rawoverwrite: Entered")
+    retv = []
+    for each in lel:
+        retv.append(formatterhelp*" "+each.rawtxt)
+
+    return retv
 
 
 
@@ -286,6 +308,7 @@ class binding_blocks:
             g = open(fname,"wb")
             g.write("".join(self.data))
             g.close()
+        logging.critical("binding_blocks:writetofile:WROTE FILE to "+fname)
 
     def addto(self,linenumber):
         self.binds.append(linenumber)
@@ -329,10 +352,17 @@ class binding_blocks:
             return None
 
         else:
-            return self.data[self.blocks[block_num][0]+1:self.blocks[block_num][1]]
+            logging.info("binding_blocks:getblock: Returned data request for "+str(block_num))
+            return  self.data[self.blocks[block_num][0]+1:self.blocks[block_num][1]]
 
     def countblocks(self):
         return len(self.blocks)
+
+    def overwriteblock(self,inblock,block_num):
+        self.data[self.blocks[block_num][0]+1 : self.blocks[block_num][1]] = inblock
+
+    def getformatterstat(self):
+        return len(self.data[self.blocks[0][0]+1])-len(self.data[self.blocks[0][0]+1].lstrip())
 
 
 #def parseinst(data):

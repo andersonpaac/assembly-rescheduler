@@ -1,0 +1,5 @@
+2015-04-30 05:49:12,279'INFO:Set logger---
+2015-04-30 05:49:12,300'INFO:building_blocke : consolidated
+2015-04-30 05:49:12,307'INFO:build_dep:alp=0
+2015-04-30 05:49:12,308'INFO:building_blocks:getblock:got  0 as block_num
+2015-04-30 05:49:12,308'INFO:binding_blocks:getblock: Returned data request for 0

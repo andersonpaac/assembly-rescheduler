@@ -1,0 +1,29 @@
+2015-04-30 05:31:24,491'INFO:Set logger---
+2015-04-30 05:31:24,513'INFO:building_blocke : consolidated
+2015-04-30 05:31:24,568'INFO:building_blocks:getblock:got  0 as block_num
+2015-04-30 05:31:24,569'INFO:analyzing block 0
+2015-04-30 05:31:24,569'INFO:	No optimizations possible in block 0
+2015-04-30 05:31:24,569'INFO:building_blocks:getblock:got  1 as block_num
+2015-04-30 05:31:24,570'INFO:analyzing block 1
+2015-04-30 05:31:24,570'INFO:building_blocks:getblock:got  2 as block_num
+2015-04-30 05:31:24,571'INFO:analyzing block 2
+2015-04-30 05:31:24,571'INFO:building_blocks:getblock:got  3 as block_num
+2015-04-30 05:31:24,571'INFO:analyzing block 3
+2015-04-30 05:31:24,571'INFO:building_blocks:getblock:got  4 as block_num
+2015-04-30 05:31:24,571'INFO:analyzing block 4
+2015-04-30 05:31:24,571'INFO:building_blocks:getblock:got  5 as block_num
+2015-04-30 05:31:24,571'INFO:analyzing block 5
+2015-04-30 05:31:24,571'INFO:building_blocks:getblock:got  6 as block_num
+2015-04-30 05:31:24,571'INFO:analyzing block 6
+2015-04-30 05:31:24,571'INFO:building_blocks:getblock:got  7 as block_num
+2015-04-30 05:31:24,571'INFO:analyzing block 7
+2015-04-30 05:31:24,571'INFO:building_blocks:getblock:got  8 as block_num
+2015-04-30 05:31:24,572'INFO:analyzing block 8
+2015-04-30 05:31:24,572'INFO:building_blocks:getblock:got  9 as block_num
+2015-04-30 05:31:24,572'INFO:analyzing block 9
+2015-04-30 05:31:24,572'INFO:graphit:Entered , received params[[26, 75]]
+2015-04-30 05:31:24,572'INFO:graphit:Corrected size
+2015-04-30 05:31:24,572'INFO:graphit:    LDR R3, R0, nosedive
+
+    ADD R4, R3, 11
+
