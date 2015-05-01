@@ -378,46 +378,33 @@ class binding_blocks:
         init1 = True
         for i in xrange(len(self.data)):
             if ":" in self.data[i] and ("data2" not in self.data[i].lower() and "datasegment" not in self.data[i].lower()):
-                    #print self.data[i]
-                    self.binds.append(i)
-                    '''
-                    #Sanity check , is previous one complete?
-                    if init1 == False:
-                        if self.blocks[ins-1][1] == -999:
-                            logging.critical("consolidation:Failed")
-                            print "Consolidation failed"
-                            exit(-1)
-                    #Multiple :'s without actual stuff in them
+                if self.data[i][0:3].lower() != "dat":
+                    if self.data[i][0:3].lower() != "seg":
+                        #print self.data[i]
+                        self.binds.append(i)
+                        if ins in self.blocks:
+                            if self.blocks[ins][0] == i-1:
+                                self.blocks[ins][0] = i
+                                #print self.data[i] , self.blocks
+                            else:
+                                self.blocks[ins][1] = i
+                                #print self.data[i],self.blocks
+                                ins = ins + 1
 
-                    if ins in self.blocks:
-                        print ins,"in block"
-                        self.blocks[ins][0]=i
-                        print "blocks now are",self.blocks
-                        #Additional sanity check
-                        if self.blocks[ins][1]!=-999:
-                            print "CONSOLIDATION FAILED"
-                            exit(-1)
-                    if ins not in self.blocks:
-                        self.blocks[ins] = [i,-999]
-                    '''
-                    if ins in self.blocks:
-                        if self.blocks[ins][0] == i-1:
-                            self.blocks[ins][0] = i
-                            #print self.data[i] , self.blocks
-                        else:
-                            self.blocks[ins][1] = i
-                            #print self.data[i],self.blocks
-                            ins = ins + 1
-
-                    if ins not in self.blocks:
-                        self.blocks[ins] = [i,-999]
+                        if ins not in self.blocks:
+                            self.blocks[ins] = [i,-999]
 
             if "data2 " in self.data[i].lower() or "datasegment" in self.data[i].lower() and ":" in self.data[i].lower():
                 #print self.data[i].lower(),"entered"
                 if ins in self.blocks:
                     self.blocks[ins][1] = i - 1
                     ins = ins + 1
-                    #if it's not updated , update it
+                     #if it's not updated , update it
+
+            if "dat"==self.data[i][0:3].lower() or "seg"==self.data[i][0:3].lower():
+                if ins in self.blocks:
+                    self.blocks[ins][1] = i - 1
+                    ins = ins + 1
 
         if ins in self.blocks:
             if self.blocks[ins][1]==-999:
@@ -440,6 +427,7 @@ class binding_blocks:
 
         else:
             logging.info("binding_blocks:getblock: Returned data request for "+str(block_num))
+            #print self.data[self.blocks[block_num][0]+1:self.blocks[block_num][1]]
             return  self.data[self.blocks[block_num][0]+1:self.blocks[block_num][1]]
 
     def countblocks(self):
